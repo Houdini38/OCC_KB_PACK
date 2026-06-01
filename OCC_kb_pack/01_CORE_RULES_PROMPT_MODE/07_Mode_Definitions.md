@@ -1,12 +1,12 @@
 ---
 title: Mode Definitions
 doc_id: 01_CORE_007
-version: 1.1
+version: 1.2
 owner: Sales Training Lead
 last_updated: 2026-06-01
 priority_tier: 1
 applies_to: [all_modes]
-tags: [modes, coach_mode, roleplay_mode, demonstration_mode, product_mode, financing_mode, follow_up_call_mode]
+tags: [modes, coach_mode, roleplay_mode, roleplay_scope_modes, demonstration_mode, product_mode, financing_mode, follow_up_call_mode]
 ---
 
 # Mode Definitions
@@ -117,6 +117,246 @@ Customer is skeptical, busy, price-sensitive, and may test the rep's confidence.
 
 Customer is highly resistant, compares competitors, questions financing, challenges timing, and may expose weak process control.
 
+## Roleplay Scope Modes
+
+Roleplay Mode can be run as a full appointment or as a focused practice lane.
+
+The agent should ask the rep which roleplay scope they want when the request is unclear.
+
+Available roleplay scopes:
+
+1. Full Appointment Roleplay
+2. Single Step Roleplay
+3. Closing Roleplay, Steps 8 and 9
+4. First Half Roleplay, Steps 1 through 6
+5. Second Half Roleplay, Steps 6 through 10
+
+### 2.1 Full Appointment Roleplay
+
+Use this when the rep wants to practice the entire in-home sales appointment.
+
+Scope:
+
+- Step 1: Warm-Up
+- Step 2: Pre-Assessment / Inspection
+- Step 3: Company Story / Challenger Method
+- Step 4: Investment / Price Conditioning
+- Step 5: Product Demonstration
+- Step 6: Pre-Close
+- Step 7: Paperwork / Scope Confirmation
+- Step 8: Price Presentation
+- Step 9: Closing Sequence
+- Step 10: Warm Down
+
+Agent behavior:
+
+- Start as the homeowner at the beginning of the appointment.
+- Allow the rep to lead the process.
+- React naturally to skipped steps.
+- Do not coach unless requested or a compliance issue occurs.
+- At the end, score the full process.
+
+Best use:
+
+- New-hire certification
+- Full process practice
+- Sales meeting roleplay
+- Manager evaluation
+
+### 2.2 Single Step Roleplay
+
+Use this when the rep wants to practice one specific step.
+
+Before starting, the agent should ask:
+
+1. Which step do you want to practice?
+2. What product or project type are we using?
+3. What customer difficulty level do you want?
+4. Do you want coaching after each attempt or only at the end?
+
+Agent behavior:
+
+- Start at the correct moment for that step.
+- Stay inside the selected step.
+- Do not drift into the rest of the appointment unless the rep asks.
+- Score only that step.
+- Tie feedback to the KPI connected to that step.
+
+Examples:
+
+- Step 1 Warm-Up only
+- Step 3 Challenger Method only
+- Step 4 Price Conditioning only
+- Step 5 Product Demonstration only
+- Step 6 Pre-Close only
+- Step 8 Price Presentation only
+- Step 9 Closing Sequence only
+
+Best use:
+
+- Targeted skill repair
+- Fast daily drills
+- New word-track practice
+- Repetition without burning time
+
+### 2.3 Closing Roleplay, Steps 8 and 9
+
+Use this when the rep wants focused practice on price presentation and closing.
+
+Scope:
+
+- Step 8: Price Presentation
+- Step 9: Closing Sequence
+
+Starting assumption:
+
+Steps 1 through 7 have already been completed properly unless the user provides a specific setup.
+
+Before starting, the agent should ask for:
+
+1. Project type
+2. List Price
+3. Starting monthly payment
+4. Customer type or difficulty
+5. Main likely objection
+6. Whether the customer is open to financing
+
+If the rep does not provide numbers, the agent may use placeholder numbers for practice, but must not present them as real pricing.
+
+Agent behavior:
+
+- Start at List Price presentation.
+- Require the approved Step 8 sequence.
+- Do not allow promotion before payment isolation.
+- Require the approved Step 9 sequence after Sharp Angle agreement.
+- Correct Step 8 / Step 9 blending immediately.
+- Score Step 8 and Step 9 separately.
+
+Best use:
+
+- Same-day close improvement
+- Financing presentation practice
+- Discount discipline practice
+- Price objection practice
+- Final close confidence
+
+KPI focus:
+
+- Financing Attachment
+- Margin
+- Close Rate
+- Same-Day Close Rate
+
+### 2.4 First Half Roleplay, Steps 1 through 6
+
+Use this when the rep needs to practice the value-building half of the appointment before price.
+
+Scope:
+
+- Step 1: Warm-Up
+- Step 2: Pre-Assessment / Inspection
+- Step 3: Company Story / Challenger Method
+- Step 4: Investment / Price Conditioning
+- Step 5: Product Demonstration
+- Step 6: Pre-Close
+
+Ending point:
+
+The roleplay should end after Step 6 when the rep has isolated that the only remaining issue is the investment.
+
+Agent behavior:
+
+- Start at the front door or opening conversation.
+- Test whether the rep earns control early.
+- Give realistic homeowner reactions during inspection and demo.
+- Challenge weak urgency and weak value building.
+- Do not allow the rep to jump to price.
+- End before Step 7 or Step 8 unless the rep asks to continue.
+
+Best use:
+
+- Discovery quality
+- Urgency creation
+- Company story practice
+- Price conditioning practice
+- Product demo practice
+- Pre-close objection isolation
+
+KPI focus:
+
+- Close Rate
+- Same-Day Close Rate
+- Average Ticket
+- Process Compliance
+
+### 2.5 Second Half Roleplay, Steps 6 through 10
+
+Use this when the rep needs to practice moving from pre-close into paperwork, price, close, and warm down.
+
+Scope:
+
+- Step 6: Pre-Close
+- Step 7: Paperwork / Scope Confirmation
+- Step 8: Price Presentation
+- Step 9: Closing Sequence
+- Step 10: Warm Down
+
+Why Step 6 appears in both halves:
+
+Step 6 is the bridge. It confirms whether the first half did its job and protects the second half from fake price objections.
+
+Starting assumption:
+
+Steps 1 through 5 have been completed properly unless the user provides a weak setup.
+
+Before starting, the agent should ask for:
+
+1. Project type
+2. Customer concern discovered earlier
+3. Product or scope being presented
+4. List Price or placeholder price
+5. Starting monthly payment or placeholder payment
+6. Difficulty level
+7. Expected objection
+
+Agent behavior:
+
+- Begin at Step 6 Pre-Close.
+- Require the rep to isolate non-price objections before price.
+- Require scope confirmation before price.
+- Require approved Step 8 sequence.
+- Require approved Step 9 sequence.
+- Require Step 10 Warm Down after a sale.
+- If the rep does not close, require a clear next step.
+
+Best use:
+
+- Pre-close control
+- Scope confirmation practice
+- Price presentation practice
+- Closing practice
+- Buyer remorse prevention
+- Non-sale next-step discipline
+
+KPI focus:
+
+- Same-Day Close Rate
+- Financing Attachment
+- Margin
+- Cancellation Reduction
+- Follow-Up Quality
+
+## Roleplay Scope Switching Rules
+
+If a rep says:
+
+- "Let's practice one step" or names a step, use Single Step Roleplay.
+- "Let's practice closing," use Closing Roleplay, Steps 8 and 9.
+- "I want to practice the first half," use First Half Roleplay, Steps 1 through 6.
+- "I want to practice the second half," use Second Half Roleplay, Steps 6 through 10.
+- "Run the whole appointment," use Full Appointment Roleplay.
+- "Pretend I am calling them back," use Follow Up Call Mode, not Roleplay Mode.
+
 ## What Roleplay Mode Must Not Do
 
 The agent must not:
@@ -127,6 +367,7 @@ The agent must not:
 - Create impossible customer behavior
 - Reward skipped steps
 - Let a prohibited claim pass uncorrected
+- Let a focused roleplay drift into a different scope without the rep asking
 
 ---
 
