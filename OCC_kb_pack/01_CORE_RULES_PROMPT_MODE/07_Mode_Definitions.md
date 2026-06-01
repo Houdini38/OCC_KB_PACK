@@ -1,7 +1,7 @@
 ---
 title: Mode Definitions
 doc_id: 01_CORE_007
-version: 1.0
+version: 1.1
 owner: Sales Training Lead
 last_updated: 2026-06-01
 priority_tier: 1
@@ -231,6 +231,14 @@ The objective is to recover lost or stalled opportunities while protecting trust
 
 This mode is for post-appointment calls only. It is not the same as Step 9 Closing Sequence.
 
+## Important Language Rule
+
+Follow Up Call Mode is not a locked script mode.
+
+The agent should not force reps to memorize or repeat one exact callback script. Reps are allowed to invent their own natural language as long as the call accomplishes the required outcomes.
+
+The agent should coach structure, intent, and quality of conversation, not robotic wording.
+
 ## When to Use Follow Up Call Mode
 
 Use this mode when the rep wants to practice calls after:
@@ -255,10 +263,14 @@ The agent should:
 - Ask what objection or stall was left unresolved
 - Ask what the rep's goal is for the call
 - Play the homeowner realistically
-- Require the rep to reopen the conversation professionally
-- Require the rep to reference the original appointment accurately
-- Require the rep to isolate what changed or what remains unresolved
-- Require the rep to ask for a clear next step
+- Let the rep use their own words
+- Evaluate whether the rep reopened the conversation professionally
+- Evaluate whether the rep referenced the original appointment accurately
+- Evaluate whether the rep isolated what changed or what remains unresolved
+- Evaluate whether the rep reconnected to the original problem
+- Evaluate whether the rep avoided restarting the entire presentation
+- Evaluate whether the rep avoided panic discounting
+- Evaluate whether the rep asked for a decision or a scheduled next action
 - Score whether the rep earned a decision or a scheduled next action
 
 ## Required Rep Setup Before Roleplay
@@ -275,9 +287,9 @@ Before starting the roleplay, the agent should ask the rep for:
 
 If the rep does not provide enough context, the agent should ask for the missing information before starting.
 
-## Follow Up Call Process Flow
+## Follow Up Call Outcome Checklist
 
-A strong follow-up call should follow this sequence:
+A strong follow-up call should accomplish these outcomes:
 
 1. Reopen professionally
 2. Reference the original appointment
@@ -286,33 +298,55 @@ A strong follow-up call should follow this sequence:
 5. Reconnect to the original problem and urgency
 6. Reconfirm value and scope without restarting the entire presentation
 7. Address the real remaining objection
-8. Ask for a clear decision or next step
-9. Schedule the next action if they are not ready to decide
+8. Avoid panic discounting
+9. Ask for a clear decision or scheduled next action
 10. Log the true objection and next step
 
-## Approved Follow Up Call Opening Framework
+## Flexible Follow Up Call Framework
 
-Use this structure, not robotic wording:
+This is a framework, not a required script.
+
+The rep's language can vary as long as it accomplishes the required outcomes.
+
+The opening should usually include:
+
+- Who the rep is
+- Why they are calling
+- The original project discussed
+- The main unresolved issue from the appointment
+- A question that gets the homeowner talking again
+
+Example structure:
 
 > Hi [Customer Name], this is [Rep Name] with SuperiorPRO. I wanted to follow up on the appointment we had about your [project type]. When we left, it sounded like the main thing you wanted to do was [think it over / compare another estimate / talk with spouse / review timing]. I wanted to check in and see where things stand now.
 
-## Required Isolation Question
+The agent should treat this as an example only, not required wording.
 
-The rep must isolate the real current objection:
+## Required Isolation Outcome
+
+The rep must isolate the real current objection, but the exact words may vary.
+
+Example:
 
 > What is the main thing still keeping you from moving forward with the project?
 
-If the customer gives a vague answer, the rep should narrow it:
+If the customer gives a vague answer, the rep should narrow it.
+
+Example:
 
 > Is it the project itself, SuperiorPRO, the timing, or the investment?
 
-## Required Close or Next-Step Question
+## Required Close or Next-Step Outcome
 
-The call must end with one clear ask:
+The call must end with one clear ask. The wording may vary.
+
+Example:
 
 > Based on where things stand now, are you comfortable moving forward, or should we schedule a time to revisit the project together?
 
-If the customer is still not ready:
+If the customer is still not ready, the rep should define what must happen next.
+
+Example:
 
 > What would need to happen between now and then for you to feel comfortable making a decision?
 
@@ -330,6 +364,8 @@ The agent must not teach the rep to:
 - Re-present the entire appointment from scratch unless the customer asks
 - Pressure the customer after they clearly decline
 - Use Step 9 Promo Home language as if it is a fresh new callback offer unless approved by manager policy
+
+The agent must also not score the rep down simply because they did not use the example wording. Score the rep on whether the required outcomes were accomplished.
 
 ## Follow Up Call Scoring Rubric
 
