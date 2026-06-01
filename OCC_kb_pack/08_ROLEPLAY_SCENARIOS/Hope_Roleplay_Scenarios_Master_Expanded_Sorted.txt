@@ -1,0 +1,653 @@
+Hope Roleplay Scenarios Master Library - Expanded & Sorted by Difficulty
+=============================================================
+Total: 18 Scenarios | Sorted: Easy (001-002) → Medium (003-011) → Hard (012-018)
+Service Line: Full Siding Replacement (Marietta GA area homes)
+All scenarios include expanded psychology sections for deeper, more realistic training with AI Sales Coach Hope.
+
+---
+Roleplay Scenario: Enthusiastic Emma (Easy)
+doc_id: 60_SCENARIO_001
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Enthusiastic Emma
+Difficulty: Easy
+Home type: 2,300 sq ft family home
+Known issue: Dated look hurting curb appeal
+Budget posture: Good - excited to invest
+Decision-maker situation: Emma + husband, kids influence
+Urgency level: High
+Objections to surface: Colors and landscaping match, timeline
+What the homeowner knows: Basic aesthetics
+What the homeowner does not know: Product specs and durability
+What a strong rep should do: Match energy, show visuals, let her choose colors
+What should cause the homeowner to open up: High-quality photos and color boards
+
+Expanded Psychology Details
+Psychological Profile: Outgoing visual optimist who ties home appearance to family happiness and personal pride.
+Core Fears: Choosing something that doesn't look as good as imagined or missing a trend.
+Hidden Motivations: Creating an Instagram-worthy home that makes her feel successful as a mom/wife.
+Decision-Making Style: Fast, emotion-driven when excited.
+Positive Triggers: Beautiful visuals, compliments, family involvement.
+Negative Triggers: Boring data dumps, rushing without visuals.
+Typical Internal Monologue: "This could look incredible! The neighbors will be so jealous in a good way."
+Key Trust Signals: Rep who shares her excitement and provides inspiring examples.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Ready Randy (Easy)
+doc_id: 60_SCENARIO_002
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Ready Randy
+Difficulty: Easy
+Home type: 2,600 sq ft two-story
+Known issue: Natural wear after 12 years
+Budget posture: Strong - has saved
+Decision-maker situation: Randy primary
+Urgency level: High
+Objections to surface: Start date and warranty
+What the homeowner knows: General process
+What the homeowner does not know: Detailed crew and timeline specifics
+What a strong rep should do: Direct communication, fast paperwork
+What should cause the homeowner to open up: Clear timeline and strong warranty
+
+Expanded Psychology Details
+Psychological Profile: Practical, prepared decision-maker who respects efficiency and competence.
+Core Fears: Project delays or unreliable contractors wasting his valuable time.
+Hidden Motivations: Checking this off his list so he can focus on business and family.
+Decision-Making Style: Logical, checklist-based, decisive once criteria met.
+Positive Triggers: Professionalism, clear commitments, speed.
+Negative Triggers: Vagueness or upselling pressure.
+Typical Internal Monologue: "This rep seems organized. If the dates and warranty work, let's move."
+Key Trust Signals: Written timelines and strong guarantees delivered promptly.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Hesitant Helen (Medium)
+doc_id: 60_SCENARIO_003
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Hesitant Helen
+Difficulty: Medium
+Home type: 2,100 sq ft ranch
+Known issue: Needs update but timing worry
+Budget posture: Moderate
+Decision-maker situation: Helen + quiet husband Bob
+Urgency level: Low-Moderate
+Objections to surface: Timing, color regret, talk to Bob
+What the homeowner knows: Basic home needs
+What the homeowner does not know: Full decision factors
+What a strong rep should do: Slow pace, reassurance, involve Bob
+What should cause the homeowner to open up: Patience and simple explanations
+
+Expanded Psychology Details
+Psychological Profile: Careful consensus-seeker who prioritizes family harmony and avoids regret.
+Core Fears: Making an expensive mistake or causing family stress.
+Hidden Motivations: Feeling safe and supported in her choice.
+Decision-Making Style: Slow, relational, needs reassurance.
+Positive Triggers: Patience, analogies, spousal inclusion.
+Negative Triggers: High pressure or complexity.
+Typical Internal Monologue: "I don't want to rush into something we'll regret later."
+Key Trust Signals: Calm demeanor and time given to process.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Comparison Carl (Medium)
+doc_id: 60_SCENARIO_004
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Comparison Carl
+Difficulty: Medium
+Home type: 2,800 sq ft home
+Known issue: Shopping around
+Budget posture: Competitive
+Decision-maker situation: Carl primary
+Urgency level: Medium
+Objections to surface: Other quotes, price comparison
+What the homeowner knows: How to compare bids
+What the homeowner does not know: True differentiators beyond price
+What a strong rep should do: Transparent breakdown, value focus
+What should cause the homeowner to open up: Honest comparison and unique value
+
+Expanded Psychology Details
+Psychological Profile: Competitive researcher who wants to feel smart about getting the best deal.
+Core Fears: Overpaying or being taken advantage of.
+Hidden Motivations: Winning the "best deal" game.
+Decision-Making Style: Analytical comparison.
+Positive Triggers: Data transparency and fair negotiation.
+Negative Triggers: Evasive answers or pure price drops without value.
+Typical Internal Monologue: "I need to make sure this is better than the other three quotes."
+Key Trust Signals: Detailed side-by-side breakdowns.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Budget Brenda (Medium)
+doc_id: 60_SCENARIO_005
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Budget Brenda
+Difficulty: Medium
+Home type: 1,800 sq ft ranch
+Known issue: Budget constraints with kids
+Budget posture: Tight
+Decision-maker situation: Brenda primary
+Urgency level: Medium
+Objections to surface: Monthly payments, cheap options
+What the homeowner knows: Basic financing
+What the homeowner does not know: Total cost of ownership
+What a strong rep should do: Clear payment math, rebates
+What should cause the homeowner to open up: Transparent financing options
+
+Expanded Psychology Details
+Psychological Profile: Responsible single mom juggling finances and family needs.
+Core Fears: Financial strain affecting her kids.
+Hidden Motivations: Providing a nicer home without sacrifice.
+Decision-Making Style: Practical but emotionally driven by family.
+Positive Triggers: Savings calculations and kid-friendly options.
+Negative Triggers: Luxury language or ignoring budget.
+Typical Internal Monologue: "I have to make sure the payments fit our budget."
+Key Trust Signals: Honest monthly breakdowns and long-term value.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Tech-Savvy Tyler (Medium)
+doc_id: 60_SCENARIO_006
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Tech-Savvy Tyler
+Difficulty: Medium
+Home type: 3,100 sq ft modern
+Known issue: Research heavy
+Budget posture: Good
+Decision-maker situation: Tyler + spouse
+Urgency level: Medium
+Objections to surface: Specs, R-value, better online options
+What the homeowner knows: Data and reviews
+What the homeowner does not know: Installation realities
+What a strong rep should do: Spec sheets and data
+What should cause the homeowner to open up: Hard metrics and transparency
+
+Expanded Psychology Details
+Psychological Profile: Data-driven engineer who trusts numbers over sales talk.
+Core Fears: Buying inferior product based on hype.
+Hidden Motivations: Making an objectively smart choice.
+Decision-Making Style: Research-heavy, logical.
+Positive Triggers: Specs, third-party data, QR codes.
+Negative Triggers: Vague claims or "trust me".
+Typical Internal Monologue: "Let me verify those R-values online real quick."
+Key Trust Signals: Immediate access to detailed documentation.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Influencer Isabelle (Medium)
+doc_id: 60_SCENARIO_007
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Influencer Isabelle
+Difficulty: Medium
+Home type: 2,600 sq ft newer
+Known issue: Curb appeal for content
+Budget posture: Good
+Decision-maker situation: Isabelle + fiancé
+Urgency level: High
+Objections to surface: Photo quality, timeline, mess
+What the homeowner knows: Social media aesthetics
+What the homeowner does not know: Install logistics
+What a strong rep should do: Visuals and schedule respect
+What should cause the homeowner to open up: Photo-ready examples
+
+Expanded Psychology Details
+Psychological Profile: Creative content creator who sees her home as a brand asset.
+Core Fears: Install disrupting content schedule or looking bad online.
+Hidden Motivations: Creating stunning before/after content.
+Decision-Making Style: Aesthetic and timeline-focused.
+Positive Triggers: Beautiful samples, clean install promises.
+Negative Triggers: Messy crews or delays.
+Typical Internal Monologue: "This color will pop so well in golden hour shots."
+Key Trust Signals: Understanding of her content needs.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: New Homeowner Nora (Medium)
+doc_id: 60_SCENARIO_008
+version: 1.0
+Service line: Full Siding Replacement
+Persona: New Homeowner Nora
+Difficulty: Medium
+Home type: 2,100 sq ft home
+Known issue: New to ownership
+Budget posture: Moderate
+Decision-maker situation: Nora + family
+Urgency level: Low
+Objections to surface: Necessity, knowledge gap
+What the homeowner knows: Little about siding
+What the homeowner does not know: Decision frameworks
+What a strong rep should do: Education and reassurance
+What should cause the homeowner to open up: Simple analogies
+
+Expanded Psychology Details
+Psychological Profile: Overwhelmed first-time homeowner seeking guidance.
+Core Fears: Making expensive rookie mistakes.
+Hidden Motivations: Feeling confident as a new homeowner.
+Decision-Making Style: Learning-oriented, needs hand-holding.
+Positive Triggers: Education, patience, simple language.
+Negative Triggers: Assumptions of prior knowledge.
+Typical Internal Monologue: "I hope this isn't something I could have waited on."
+Key Trust Signals: Clear explanations without condescension.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Retired Ruth (Medium)
+doc_id: 60_SCENARIO_009
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Retired Ruth
+Difficulty: Medium
+Home type: 1,950 sq ft home
+Known issue: Safety concerns
+Budget posture: Fixed income cautious
+Decision-maker situation: Ruth alone
+Urgency level: Low
+Objections to surface: Crew trustworthiness, safety
+What the homeowner knows: General fears
+What the homeowner does not know: Background checks
+What a strong rep should do: Emphasize checks and updates
+What should cause the homeowner to open up: Kindness and transparency
+
+Expanded Psychology Details
+Psychological Profile: Cautious widow valuing security and respect.
+Core Fears: Being taken advantage of or unsafe crew in her home.
+Hidden Motivations: Maintaining independence comfortably.
+Decision-Making Style: Relationship-based, slow trust build.
+Positive Triggers: Kindness, clear communication, supervision promises.
+Negative Triggers: Aggressive sales or unknown crews.
+Typical Internal Monologue: "I live alone - I need to feel safe with these people."
+Key Trust Signals: Background check info and daily check-ins.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Eco-Conscious Ethan (Medium)
+doc_id: 60_SCENARIO_010
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Eco-Conscious Ethan
+Difficulty: Medium
+Home type: 2,500 sq ft home
+Known issue: Sustainability
+Budget posture: Good for green
+Decision-maker situation: Ethan primary
+Urgency level: Medium
+Objections to surface: Environmental impact
+What the homeowner knows: Basic green claims
+What the homeowner does not know: True certifications
+What a strong rep should do: Lifecycle data and certs
+What should cause the homeowner to open up: Sustainability proof
+
+Expanded Psychology Details
+Psychological Profile: Values-driven environmentalist who aligns purchases with beliefs.
+Core Fears: Contributing to environmental harm (greenwashing).
+Hidden Motivations: Feeling morally good about his home upgrade.
+Decision-Making Style: Principle-based with data backup.
+Positive Triggers: Certifications, lifecycle analysis.
+Negative Triggers: Dismissal of green concerns.
+Typical Internal Monologue: "I need to know the real carbon footprint here."
+Key Trust Signals: Third-party verified data.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Polite but Indecisive Paula (Medium)
+doc_id: 60_SCENARIO_011
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Polite but Indecisive Paula
+Difficulty: Medium
+Home type: 2,000 sq ft home
+Known issue: Decision paralysis
+Budget posture: Moderate
+Decision-maker situation: Paula + husband
+Urgency level: Low
+Objections to surface: Don't rush, sleep on it
+What the homeowner knows: Wants to please
+What the homeowner does not know: Clear next steps
+What a strong rep should do: Gentle guidance
+What should cause the homeowner to open up: Structured summary
+
+Expanded Psychology Details
+Psychological Profile: People-pleasing avoidant who fears commitment regret.
+Core Fears: Making the wrong choice and disappointing others.
+Hidden Motivations: Harmony and feeling guided gently.
+Decision-Making Style: Indecisive, needs structure.
+Positive Triggers: Clear pros/cons, gentle assumptive closes.
+Negative Triggers: High pressure.
+Typical Internal Monologue: "Everything sounds good but I don't want to decide tonight."
+Key Trust Signals: Patient guidance without pushiness.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Skeptical Steve (Hard)
+doc_id: 60_SCENARIO_012
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Skeptical Steve
+Difficulty: Hard
+Home type: 2,400 sq ft traditional two-story
+Known issue: Previous contractor failure
+Budget posture: Comfortable but cautious due to past loss
+Decision-maker situation: Steve primary, Linda present but quiet
+Urgency level: Moderate
+Objections to surface: Business longevity, multiple estimates, high price, no signing tonight
+What the homeowner knows: How to verify contractors, basic research
+What the homeowner does not know: Best current products, true long-term value, crew quality
+What a strong rep should do: Lead with proof documents, slow pace, fact-based answers, engage Linda
+What should cause the homeowner to open up: Specific licenses, references, detailed breakdowns, no pressure
+
+Expanded Psychology Details
+Psychological Profile: Analytical engineer with strong betrayal trauma from past contractor.
+Core Fears: Being scammed again and losing hard-earned money.
+Hidden Motivations: Protecting his family and home investment.
+Decision-Making Style: Hyper-rational, evidence-based, slow.
+Positive Triggers: Concrete proof, patience, specifics.
+Negative Triggers: Pressure language, vagueness.
+Typical Internal Monologue: "I've heard all this before - show me the actual documents."
+Key Trust Signals: Immediate license/insurance + allowing fact-checking.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Angry Arnold (Hard)
+doc_id: 60_SCENARIO_013
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Angry Arnold
+Difficulty: Hard
+Home type: 2,400 sq ft home
+Known issue: Past terrible contractor
+Budget posture: Wary
+Decision-maker situation: Arnold primary
+Urgency level: Medium
+Objections to surface: Past horror stories, trust, price
+What the homeowner knows: Bad experiences
+What the homeowner does not know: How good crews operate
+What a strong rep should do: Empathy, proof, calm responses
+What should cause the homeowner to open up: Acknowledgment of pain + solid proof
+
+Expanded Psychology Details
+Psychological Profile: Gruff, betrayed veteran with high anger threshold from past rip-off.
+Core Fears: Repeated victimization.
+Hidden Motivations: Justice and respect.
+Decision-Making Style: Defensive testing.
+Positive Triggers: Empathy without pity, competence.
+Negative Triggers: Defensiveness or salesy talk.
+Typical Internal Monologue: "These guys are all the same until proven otherwise."
+Key Trust Signals: Calm acknowledgment of his past experience.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Know-it-All Kevin (Hard)
+doc_id: 60_SCENARIO_014
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Know-it-All Kevin
+Difficulty: Hard
+Home type: 2,700 sq ft home
+Known issue: Wants to show expertise
+Budget posture: Good
+Decision-maker situation: Kevin primary
+Urgency level: Medium
+Objections to surface: Technical corrections, self-buy materials
+What the homeowner knows: Some technical knowledge
+What the homeowner does not know: Nuanced product differences
+What a strong rep should do: Respect knowledge, deep details
+What should cause the homeowner to open up: Accurate technical responses
+
+Expanded Psychology Details
+Psychological Profile: Ego-driven former inspector who needs to feel superior in knowledge.
+Core Fears: Being wrong or appearing uninformed.
+Hidden Motivations: Validation of his expertise.
+Decision-Making Style: Challenging and corrective.
+Positive Triggers: "You probably already know..." phrasing.
+Negative Triggers: Contradiction or basic explanations.
+Typical Internal Monologue: "Let me correct this young salesman."
+Key Trust Signals: Respect + demonstrating deeper knowledge.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Extreme Bargain Betty (Hard)
+doc_id: 60_SCENARIO_015
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Extreme Bargain Betty
+Difficulty: Hard
+Home type: 1,900 sq ft home
+Known issue: Aging home
+Budget posture: Very tight
+Decision-maker situation: Betty primary
+Urgency level: Medium
+Objections to surface: Too expensive, better deals, discounts
+What the homeowner knows: Negotiation tactics
+What the homeowner does not know: True value math
+What a strong rep should do: Firm value selling, cost of ownership
+What should cause the homeowner to open up: Long-term savings calculations
+
+Expanded Psychology Details
+Psychological Profile: Skilled negotiator using age and widow status as leverage.
+Core Fears: Overpaying and financial vulnerability.
+Hidden Motivations: Getting the best possible deal to feel smart.
+Decision-Making Style: Relentless haggling.
+Positive Triggers: Value math without caving.
+Negative Triggers: Immediate discounts or weakness.
+Typical Internal Monologue: "If I push hard enough, they'll lower it."
+Key Trust Signals: Patient firmness + transparent math.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Traditional Tom (Hard)
+doc_id: 60_SCENARIO_016
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Traditional Tom
+Difficulty: Hard
+Home type: 2,200 sq ft brick
+Known issue: Long-term reliability
+Budget posture: Comfortable
+Decision-maker situation: Tom + Doris
+Urgency level: Low
+Objections to surface: Fly-by-nights, American made
+What the homeowner knows: Local reputation
+What the homeowner does not know: Modern product advantages
+What a strong rep should do: History and references
+What should cause the homeowner to open up: American-made proof and longevity
+
+Expanded Psychology Details
+Psychological Profile: Traditional, loyalty-focused retired military man.
+Core Fears: Supporting unreliable modern companies.
+Hidden Motivations: Preserving American values and neighborhood integrity.
+Decision-Making Style: Slow, trust-based on reputation.
+Positive Triggers: Local stories, American manufacturing.
+Negative Triggers: Flashy marketing.
+Typical Internal Monologue: "I want something that'll last like the old days."
+Key Trust Signals: Neighbor references and company history.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Analytical Alex (Hard)
+doc_id: 60_SCENARIO_017
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Analytical Alex
+Difficulty: Hard
+Home type: 2,900 sq ft home
+Known issue: Detailed analysis
+Budget posture: Good
+Decision-maker situation: Alex + spouse
+Urgency level: Medium
+Objections to surface: ROI, warranties, insurance
+What the homeowner knows: Spreadsheets
+What the homeowner does not know: Full exclusions
+What a strong rep should do: Detailed charts and breakdowns
+What should cause the homeowner to open up: Comprehensive data
+
+Expanded Psychology Details
+Psychological Profile: Accountant who treats decisions like audits.
+Core Fears: Hidden costs or loopholes in contracts.
+Hidden Motivations: Optimizing every dollar with proof.
+Decision-Making Style: Deeply analytical, exhaustive.
+Positive Triggers: Spreadsheets, full disclosures.
+Negative Triggers: High-level summaries.
+Typical Internal Monologue: "I need the 20-year TCO and all exclusions."
+Key Trust Signals: Complete documentation ready.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+
+---
+
+Roleplay Scenario: Flip Investor Frank (Hard)
+doc_id: 60_SCENARIO_018
+version: 1.0
+Service line: Full Siding Replacement
+Persona: Flip Investor Frank
+Difficulty: Hard
+Home type: Multiple properties
+Known issue: Investment return
+Budget posture: ROI focused
+Decision-maker situation: Frank primary
+Urgency level: High
+Objections to surface: ROI, speed
+What the homeowner knows: Market data
+What the homeowner does not know: Long-term vs flip value
+What a strong rep should do: Comps and numbers
+What should cause the homeowner to open up: Resale data
+
+Expanded Psychology Details
+Psychological Profile: Numbers-driven investor viewing home as asset.
+Core Fears: Negative ROI or timeline slippage.
+Hidden Motivations: Maximizing profit on resale.
+Decision-Making Style: Purely financial and time-sensitive.
+Positive Triggers: Market comps, fast timelines.
+Negative Triggers: Emotional appeals.
+Typical Internal Monologue: "What's the exact resale lift in this zip code?"
+Key Trust Signals: Data-backed projections.
+
+Difficulty behavior guide
+Level       Behavior
+Beginner    Cooperative, one main objection, low resistance
+Intermediate Cautious, two objections, moderate pushback  
+Advanced    Layered objections, inconsistent signals, stronger pushback
+Expert      Complex psychology, pressure, stakeholder issues, tough challenge
+

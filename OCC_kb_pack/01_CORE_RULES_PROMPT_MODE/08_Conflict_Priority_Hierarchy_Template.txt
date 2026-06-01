@@ -1,0 +1,10 @@
+Conflict Priority Hierarchy Template
+Hope Knowledge Base Template Pack
+Document TypePolicyStatusDraft TemplateOwner[Name]Last UpdatedYYYY-MM-DDVersionv1.0Applies ToAll repsMode RelevanceAllPriority LevelCritical
+Purpose
+Tell Hope what to follow first when documents conflict. This is a Prompt-mode document.
+Priority RankSourceWhat wins1Compliance / prohibited claimsAlways wins first2Sales System MasterSystem rules override general coaching3SuperiorPRO company policyCompany policy overrides general examples4Current approved financing termsCurrent terms override older financing guidance5Current approved product and warranty docsCurrent approved docs override general product guidance6Mode definitionsMode rules govern response behavior7Roleplay persona and scenario docsRoleplay realism only, never override compliance8General coaching guidanceUse only when consistent with higher rules9General model knowledgeLast resort only for low-risk general explanation
+Tie-break rule
+When two documents appear equal, Hope must follow the most recent approved version listed in KB_Index.csv.
+1
+

@@ -1,0 +1,104 @@
+Hope_Knowledge_Base/
+│
+├── 00_ADMIN/
+│   ├── KB_Index.xlsx
+│   ├── Change_Log.docx
+│   ├── Version_History.docx
+│   ├── Source_of_Truth_Register.docx
+│   └── Owners_and_Approval_Rules.docx
+│
+├── 01_CORE_RULES_PROMPT_MODE/
+│   ├── 01_Sales_System_Master.docx
+│   ├── 02_Sales_Process_Checklist.docx
+│   ├── 03_Appointment_Call_Flow.docx
+│   ├── 04_Coaching_Rules.docx
+│   ├── 05_Scoring_Rubric.docx
+│   ├── 06_Compliance_Prohibited_Claims.docx
+│   ├── 07_Mode_Definitions.docx
+│   └── 08_Conflict_Priority_Hierarchy.docx
+│
+├── 02_APPROVED_LANGUAGE/
+│   ├── 01_Opening_and_Setting_Expectations.docx
+│   ├── 02_Discovery_Questions.docx
+│   ├── 03_Demo_and_Education_Language.docx
+│   ├── 04_Price_Conditioning_Language.docx
+│   ├── 05_Financing_Presentation_Language.docx
+│   ├── 06_Objection_Response_Language.docx
+│   ├── 07_Close_Ask_Language.docx
+│   └── 08_Rehash_and_Follow_Up_Language.docx
+│
+├── 03_OBJECTION_HANDLING/
+│   ├── 01_Price_Too_High.docx
+│   ├── 02_Need_To_Think_About_It.docx
+│   ├── 03_Need_To_Talk_To_Spouse.docx
+│   ├── 04_Getting_Other_Estimates.docx
+│   ├── 05_Not_Ready.docx
+│   ├── 06_No_Time_Today.docx
+│   ├── 07_Dont_Want_Financing.docx
+│   ├── 08_Trust_Reputation_Concern.docx
+│   └── 09_Same_Day_Close_Resistance.docx
+│
+├── 04_PRODUCT_KNOWLEDGE/
+│   ├── SIDING/
+│   │   ├── 01_Fiber_Cement_Overview.docx
+│   │   ├── 02_James_Hardie_Key_Points.docx
+│   │   ├── 03_Siding_vs_Alternatives.docx
+│   │   ├── 04_Siding_Installation_Process.docx
+│   │   ├── 05_Siding_Warranty.docx
+│   │   └── 06_Siding_FAQ.docx
+│   ├── PAINTING/
+│   ├── WINDOWS_DOORS/
+│   ├── GUTTERS_GUARDS/
+│   └── STUCCO/
+│
+├── 05_FINANCING/
+│   ├── 01_Financing_Master_Policy.docx
+│   ├── 02_Current_Financing_Programs.docx
+│   ├── 03_Financing_Presentation_Framework.docx
+│   ├── 04_Financing_FAQ.docx
+│   └── 05_Prohibited_Financing_Statements.docx
+│
+├── 06_WARRANTIES/
+│   ├── 01_Company_Workmanship_Warranty.docx
+│   ├── 02_Manufacturer_Warranties.docx
+│   ├── 03_Warranty_Comparison_FAQ.docx
+│   └── 04_Warranty_Claim_Limits.docx
+│
+├── 07_CUSTOMER_PERSONAS/
+│   ├── 01_Skeptical_Homeowner.docx
+│   ├── 02_Price_Sensitive_Homeowner.docx
+│   ├── 03_Busy_Homeowner.docx
+│   ├── 04_Analytical_Homeowner.docx
+│   ├── 05_Emotional_Homeowner.docx
+│   ├── 06_Spouse_Not_Present.docx
+│   ├── 07_Multiple_Estimate_Shopper.docx
+│   └── 08_Urgent_Repair_Homeowner.docx
+│
+├── 08_ROLEPLAY_SCENARIOS/
+│   ├── BEGINNER/
+│   ├── INTERMEDIATE/
+│   ├── ADVANCED/
+│   └── EXPERT/
+│
+├── 09_COACHING_DIAGNOSTICS/
+│   ├── 01_Common_Sales_Mistakes.docx
+│   ├── 02_Missed_Sale_Diagnosis_Framework.docx
+│   ├── 03_Weak_Phrasing_to_Strong_Phrasing.docx
+│   ├── 04_KPI_Linkage_Guide.docx
+│   └── 05_One_Legger_Diagnosis.docx
+│
+├── 10_FAQS/
+│   ├── 01_Sales_Process_FAQ.docx
+│   ├── 02_Product_FAQ.docx
+│   ├── 03_Financing_FAQ.docx
+│   ├── 04_Warranty_FAQ.docx
+│   └── 05_Compliance_FAQ.docx
+│
+└── 11_TESTING_QA/
+    ├── 01_Smoke_Test_Questions.docx
+    ├── 02_Product_Accuracy_Tests.docx
+    ├── 03_Financing_Accuracy_Tests.docx
+    ├── 04_Roleplay_Realism_Tests.docx
+    ├── 05_Coaching_Consistency_Tests.docx
+    ├── 06_Refusal_and_Compliance_Tests.docx
+    └── 07_Golden_Transcript_Examples.docx
