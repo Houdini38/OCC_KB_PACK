@@ -1,12 +1,12 @@
 ---
 title: Scoring Rubric
 doc_id: 01_CORE_005
-version: 1.0
+version: 1.1
 owner: Sales Training Lead
 last_updated: 2026-06-01
 priority_tier: 2
 applies_to: [coach_mode, roleplay_mode, diagnostics_mode, follow_up_call_mode]
-tags: [scoring, rubric, kpi, roleplay, transcript_review, sales_process, step_8, step_9]
+tags: [scoring, rubric, kpi, roleplay, roleplay_scope_modes, transcript_review, sales_process, step_8, step_9]
 ---
 
 # Scoring Rubric
@@ -103,6 +103,196 @@ Was the objection real or created by process weakness?
 Best rehash angle:
 Next follow-up action:
 ```
+
+---
+
+# Roleplay Scope Scoring
+
+Use this section when the rep practices a focused roleplay lane instead of a full appointment.
+
+The agent must score only the selected roleplay scope unless the rep asks for a broader review.
+
+## 1. Full Appointment Roleplay Scoring
+
+Score the complete 10-step process.
+
+Required scoring areas:
+
+- Process Control
+- Trust and Permission
+- Discovery and Urgency
+- Company Differentiation
+- Price Conditioning
+- Product Demonstration
+- Pre-Close
+- Scope Confirmation
+- Step 8 Price Presentation
+- Step 9 Closing Sequence
+- Warm Down
+- Compliance
+
+Primary KPI focus:
+
+- Close Rate
+- Same-Day Close Rate
+- Average Ticket
+- Financing Attachment
+- Margin Discipline
+- Cancellation Reduction
+
+## 2. Single Step Roleplay Scoring
+
+Score only the selected step.
+
+Required scoring areas:
+
+- Did the rep stay inside the selected step?
+- Did the rep accomplish the purpose of that step?
+- Did the rep use the correct process flow?
+- Did the rep use approved language if that step has locked language?
+- Did the rep hit the required checkpoint or question?
+- Did the rep avoid drifting into a different step?
+
+Output format:
+
+```text
+Single Step Score: __ / 5
+Step Practiced:
+Purpose of Step:
+Pass / Fail:
+KPI Impact:
+Corrected Move:
+Repeat Drill:
+```
+
+## 3. Closing Roleplay Scoring, Steps 8 and 9
+
+Score Step 8 and Step 9 separately.
+
+Do not give one combined close score.
+
+### Step 8 Score
+
+Score whether the rep:
+
+- Presented List Price confidently
+- Presented the high starting monthly payment
+- Asked how the payment fit the budget
+- Isolated monthly comfort
+- Confirmed the payment target
+- Trial-closed List Price
+- Offered the Monthly Promotion at the right time
+- Used Add/Subtract/Sharp Angle only if still needed
+- Avoided Step 9 Promo Home language
+
+### Step 9 Score
+
+Score whether the rep:
+
+- Physically disarmed
+- Asked the timeline question
+- Delivered the WOW line
+- Used the approved Promo Home / Marketing Opportunity language
+- Presented the adjusted offer
+- Asked directly for the sale
+- Isolated the final objection if needed
+- Avoided Step 8 payment-isolation drift
+
+Output format:
+
+```text
+Closing Roleplay Score:
+Step 8 Score: __ / 5
+Step 9 Score: __ / 5
+
+Biggest Strength:
+Biggest Drift Risk:
+KPI Impact:
+Corrected Move:
+Repeat Drill:
+```
+
+Automatic score caps:
+
+- If the rep discounts before isolating payment, Step 8 score cannot exceed 2.
+- If the rep does not ask directly for the sale, Step 9 score cannot exceed 2.
+- If the rep invents financing approval, manager approval, or discount authority, the relevant score cannot exceed 1 until corrected.
+
+## 4. First Half Roleplay Scoring, Steps 1 through 6
+
+Score only the value-building half of the appointment.
+
+Required scoring areas:
+
+- Step 1: Did the rep earn permission and set expectations?
+- Step 2: Did the rep create urgency from the inspection?
+- Step 3: Did the rep teach, tailor, and take control with the Company Story?
+- Step 4: Did the rep condition price before price?
+- Step 5: Did the rep make value physical and explain the complete project?
+- Step 6: Did the rep isolate everything except investment?
+
+Primary KPI focus:
+
+- Close Rate
+- Same-Day Close Rate
+- Average Ticket
+- Process Compliance
+
+Output format:
+
+```text
+First Half Roleplay Score: __ / 5
+Strongest Step:
+Weakest Step:
+Did the rep earn the right to present price? Yes / No
+KPI Impact:
+Corrected Move:
+Repeat Drill:
+```
+
+Automatic score cap:
+
+If the rep jumps to price before Step 6, First Half Roleplay score cannot exceed 2.
+
+## 5. Second Half Roleplay Scoring, Steps 6 through 10
+
+Score the transition from pre-close through warm down.
+
+Required scoring areas:
+
+- Step 6: Did the rep isolate non-price objections before price?
+- Step 7: Did the rep confirm scope clearly before price?
+- Step 8: Did the rep follow the approved payment-control sequence?
+- Step 9: Did the rep follow the approved close sequence?
+- Step 10: Did the rep reinforce the decision and confirm next steps?
+
+Primary KPI focus:
+
+- Same-Day Close Rate
+- Financing Attachment
+- Margin
+- Cancellation Reduction
+- Follow-Up Quality
+
+Output format:
+
+```text
+Second Half Roleplay Score: __ / 5
+Step 6 Score:
+Step 8 Score:
+Step 9 Score:
+Biggest Miss:
+KPI Impact:
+Corrected Move:
+Repeat Drill:
+```
+
+Automatic score caps:
+
+- If the rep enters Step 8 with unresolved non-price objections, Second Half Roleplay score cannot exceed 3.
+- If the rep discounts before isolating monthly payment, Step 8 score cannot exceed 2.
+- If the rep does not ask directly for the sale, Step 9 score cannot exceed 2.
+- If the rep gets the sale but skips Warm Down, Step 10 score cannot exceed 3.
 
 ---
 
