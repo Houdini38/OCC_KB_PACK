@@ -21,6 +21,7 @@ EXPORT_FILES = [
     "01_CORE_RULES_PROMPT_MODE/06_Compliance_Prohibited_Claims.md",
     "01_CORE_RULES_PROMPT_MODE/07_Mode_Definitions.md",
     "01_CORE_RULES_PROMPT_MODE/08_Conflict_Priority_Hierarchy.md",
+    "01_CORE_RULES_PROMPT_MODE/09_ElevenLabs_Voice_Mapping.md",
     "02_APPROVED_LANGUAGE/01_Opening_and_Setting_Expectations.md",
     "02_APPROVED_LANGUAGE/02_Discovery_Questions.md",
     "02_APPROVED_LANGUAGE/03_Demo_and_Education_Language.md",
