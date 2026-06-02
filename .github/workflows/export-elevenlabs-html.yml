@@ -1,0 +1,43 @@
+name: Export ElevenLabs HTML
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'OCC_kb_pack/**/*.md'
+      - 'OCC_kb_pack/09_HTML_EXPORT/convert_markdown_to_html.py'
+      - '.github/workflows/export-elevenlabs-html.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Convert Markdown KB to HTML
+        run: python OCC_kb_pack/09_HTML_EXPORT/convert_markdown_to_html.py
+
+      - name: Commit exported HTML
+        run: |
+          if git diff --quiet -- OCC_kb_pack/09_HTML_EXPORT/html; then
+            echo "No HTML export changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add OCC_kb_pack/09_HTML_EXPORT/html
+            git commit -m "Export rebuilt KB to ElevenLabs HTML"
+            git push
+          fi
