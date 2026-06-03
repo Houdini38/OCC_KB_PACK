@@ -1,9 +1,9 @@
 ---
 title: File Export Index
 doc_id: 09_HTML_003
-version: 1.0
+version: 1.1
 owner: Sales Training Lead
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 priority_tier: 7
 applies_to: [html_export]
 tags: [html, export_index, elevenlabs, file_list]
@@ -66,11 +66,12 @@ Export these files:
 06_Compliance_Prohibited_Claims.md
 07_Mode_Definitions.md
 08_Conflict_Priority_Hierarchy.md
+09_ElevenLabs_Voice_Mapping.md
 ```
 
 Note:
 
-Hope System Prompt v5 should be applied as the agent system prompt. Exporting it as a KB file is optional, but it is included in this index for completeness.
+Hope System Prompt v5.1 should be applied as the agent system prompt. Exporting it as a KB file is optional, but it is included in this index for completeness.
 
 ---
 
@@ -154,11 +155,10 @@ Source folder:
 Export these files:
 
 ```text
-01_Financing_Master_Policy.md
-02_Current_Financing_Programs.md
-03_Financing_Presentation_Framework.md
-04_Financing_FAQ.md
-05_Prohibited_Financing_Statements.md
+00_FinancingOverview.md
+01_FinancingPlans.md
+02_FinancingObjectionHandling.md
+03_ProhibitedFinancingClaims.md
 ```
 
 ---
@@ -226,21 +226,44 @@ Export these files:
 
 ---
 
+# Export Set - 80 Coaching
+
+Source folder:
+
+```text
+80_COACHING/
+```
+
+Export these files:
+
+```text
+00_Roleplay_Scoring_Rubric.md
+01_Coaching_Rules.md
+02_KPI_Definitions.md
+03_Quick_Drill_Scoring_Rubric.md
+04_Upstream_Diagnosis.md
+05_Hope_Coaching_Protocol.md
+06_Manager_Drill_Sheet.md
+```
+
+---
+
 # Export Count
 
 Total default export files:
 
 | Section | Count |
 |---|---:|
-| 01 Core Rules Prompt Mode | 9 |
+| 01 Core Rules Prompt Mode | 10 |
 | 02 Approved Language | 8 |
 | 03 Objection Handling | 9 |
 | 04 Product Knowledge | 7 |
-| 05 Financing | 5 |
+| 05 Financing | 4 |
 | 06 Warranties | 4 |
 | 07 Customer Personas | 4 |
 | 08 Roleplay Scenarios | 10 |
-| Total | 56 |
+| 80 Coaching | 7 |
+| Total | 63 |
 
 ---
 
