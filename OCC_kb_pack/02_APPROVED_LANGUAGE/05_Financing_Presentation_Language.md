@@ -1,9 +1,9 @@
 ---
 title: Financing Presentation Language
 doc_id: 02_APPROVED_005
-version: 1.0
+version: 1.1
 owner: Sales Training Lead / Finance Manager
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 priority_tier: 2
 applies_to: [coach_mode, roleplay_mode, demonstration_mode, financing_mode]
 tags: [approved_language, step_8, price_presentation, financing, payment_isolation, compliance]
@@ -17,7 +17,16 @@ This file controls approved language for Step 8 - Price Presentation and financi
 
 Step 8 protects affordability, financing attachment, close rate, and margin by isolating the homeowner's monthly comfort before promotion or additional close moves.
 
-This file supports the Sales System Master and Compliance files. If this file conflicts with compliance or confirmed financing terms, compliance and confirmed financing terms win.
+This file supports the Sales System Master and financing compliance files. If this file conflicts with financing compliance or confirmed financing terms, financing compliance and confirmed financing terms win.
+
+Active financing authority:
+
+```text
+05_FINANCING/00_FinancingOverview.md
+05_FINANCING/01_FinancingPlans.md
+05_FINANCING/02_FinancingObjectionHandling.md
+05_FINANCING/03_ProhibitedFinancingClaims.md
+```
 
 ---
 
@@ -40,9 +49,12 @@ Do not use Step 9 Promo Home / Marketing Opportunity language inside Step 8.
 2. Present a high starting monthly payment.
 3. Ask how that monthly payment fits their budget.
 4. If they react to total price, acknowledge briefly and redirect to monthly.
-5. Do not offer any promotion until a monthly number is isolated or they clearly refuse financing.
-6. After the Monthly Promotion Offer, use Add/Subtract/Sharp Angle only if still needed.
-7. If customer says they do not want to use our financing, verify that they can pay the 35% deposit and move forward.
+5. Isolate their monthly comfort zone.
+6. Confirm their payment target.
+7. Trial-close at List Price.
+8. Offer Monthly Promotion.
+9. After the Monthly Promotion Offer, use Add/Subtract/Sharp Angle only if still needed.
+10. If customer says they do not want to use financing, verify that they can pay the 35% deposit and balance upon completion.
 
 ---
 
@@ -50,7 +62,7 @@ Do not use Step 9 Promo Home / Marketing Opportunity language inside Step 8.
 
 ## Part 1 - Anchor and Monthly Frame
 
-> The total investment for the full project comes to $List Price. You can either put 35% and pay the balance upon completion, or we can do payments at $____ per month, how does that fit into your budget?
+> The total investment for the full project comes to $List Price. You can either put 35% and pay the balance upon completion, or we can do payments at $____ per month. How does that fit into your budget?
 
 ## Part 2 - Redirect and Isolate
 
@@ -62,11 +74,17 @@ Do not use Step 9 Promo Home / Marketing Opportunity language inside Step 8.
 
 ## Part 4 - Trial Close List Price
 
-> If we can get your payment at $___ can we earn your business at $List Price?
+> If we can get your payment at $___, can we earn your business at $List Price?
 
 ## Part 5 - Offer Monthly Promotion
 
-Offer Monthly Promotion.
+Offer Monthly Promotion using only approved financing plans and payment factors from:
+
+```text
+05_FINANCING/01_FinancingPlans.md
+```
+
+Do not invent plan terms, payment factors, APR, rate, term, lender decision, or approval likelihood.
 
 ## Part 6 - Add/Subtract/Sharp Angle
 
@@ -78,7 +96,7 @@ Offer Monthly Promotion.
 
 - "How does $____ per month fit into your budget?"
 - "What monthly investment would feel comfortable for you?"
-- "One being the worst and Ten the best, where would you put your credit?"
+- "So, for me or anyone else to earn your business we would need to be at $___ per month or less. Is that correct?"
 - Do not move to Step 9 until the customer agrees it is worth it but more than expected.
 
 ---
@@ -102,6 +120,10 @@ Approved financing direction:
 
 > Financing is available for qualified customers, and the lender determines approval and terms.
 
+Required lender disclosure when discussing financing:
+
+> GreenSky® program consumer loans are made by Synovus Bank, Member FDIC, NMLS #408043.
+
 If a specific financing term is not confirmed in the knowledge base, use the missing-information response.
 
 ---
@@ -118,8 +140,26 @@ Do not say:
 - "This payment is guaranteed."
 - "We finance you."
 - "SuperiorPRO approves the loan."
-- "Free financing" unless approved financing documentation supports the exact phrase.
+- "Free financing."
+- "No-cost financing."
+- "Free money."
 - "No interest" without required deferred-interest disclosures when applicable.
+
+---
+
+# Deferred Interest Disclosure Rule
+
+For deferred-interest plans, the rep must explain:
+
+> Interest is waived if the full amount is paid before the promotional period ends. If not paid in full, interest that accrued during the promo period will be charged.
+
+For deferred-interest with payments:
+
+> Monthly payments are required during and after the promotional period. Interest is waived only if the full balance is paid before the promo period ends.
+
+For range-rate plans:
+
+> Your specific APR within this range is determined by the lender based on your application.
 
 ---
 
@@ -132,6 +172,8 @@ Do not replace the approved sequence with older language such as:
 - Asking vague affordability questions without getting a monthly number
 - Moving directly into Promo Home language
 - Using Step 9 closing language before Step 8 is complete
+- Calling financing "free"
+- Promising approval, rate, term, or payment
 
 ---
 
@@ -159,4 +201,14 @@ Missed step: Step 8 payment isolation.
 Why it matters: You gave away discount before the customer gave you a budget target.
 KPI impact: Margin and financing attachment.
 Corrected move: Go back to, "What monthly investment would feel comfortable for you on a project like this?"
+```
+
+If the rep uses prohibited financing language, Hope should interrupt immediately:
+
+```text
+Stop. That language is not approved.
+Issue: Prohibited financing claim.
+Why it matters: SuperiorPRO is not the lender. The lender determines approval and terms.
+Approved replacement: Financing is available for qualified customers, and the lender determines approval and terms.
+Restart from the payment explanation.
 ```
