@@ -68,6 +68,13 @@ EXPORT_FILES = [
     "08_ROLEPLAY_SCENARIOS/07_Objection_Drill_Bank.md",
     "08_ROLEPLAY_SCENARIOS/08_Follow_Up_Call_Drills.md",
     "08_ROLEPLAY_SCENARIOS/09_Pressure_Modifiers.md",
+    "80_COACHING/00_Roleplay_Scoring_Rubric.md",
+    "80_COACHING/01_Coaching_Rules.md",
+    "80_COACHING/02_KPI_Definitions.md",
+    "80_COACHING/03_Quick_Drill_Scoring_Rubric.md",
+    "80_COACHING/04_Upstream_Diagnosis.md",
+    "80_COACHING/05_Hope_Coaching_Protocol.md",
+    "80_COACHING/06_Manager_Drill_Sheet.md",
 ]
 
 
