@@ -1,12 +1,12 @@
 ---
 title: Hope Voice Mapping Guide
 doc_id: 01_CORE_010
-version: 2.0
+version: 2.1
 owner: Sales Training Lead
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 priority_tier: 1
 applies_to: [roleplay_mode, follow_up_call_mode, objection_drill]
-tags: [elevenlabs, voice_mapping, roleplay, customer_voice]
+tags: [elevenlabs, voice_mapping, roleplay, customer_voice, persona_names]
 ---
 
 # Hope Voice Mapping Guide
@@ -15,9 +15,29 @@ tags: [elevenlabs, voice_mapping, roleplay, customer_voice]
 
 This document controls ElevenLabs multi-voice behavior for Hope during customer roleplay.
 
-Hope uses the default voice for coaching, setup, debrief, scoring, product explanation, financing explanation, and compliance/coaching interruptions.
+Hope uses the default voice for coaching, setup, debrief, scoring, product explanation, financing explanation, and coaching interruptions.
 
 Hope uses voice tags only when speaking as the customer during roleplay.
+
+---
+
+# Core Rule
+
+The ElevenLabs voice label must match the customer name exactly.
+
+The transcript should show the customer name, not a generic descriptive voice label.
+
+Correct:
+
+```html
+<voice name="Retired Ruth">I understand, honey. I just want to make sure I’m making the right decision.</voice>
+```
+
+Incorrect:
+
+```html
+<voice name="Older_Female">I understand, honey. I just want to make sure I’m making the right decision.</voice>
+```
 
 ---
 
@@ -40,97 +60,73 @@ Do not use a voice tag when:
 
 ---
 
-# Voice Tag Syntax
+# Active Voice Labels
 
-Wrap the customer's spoken line in an ElevenLabs voice tag.
+These are the only active customer voice labels for the current 9-persona roleplay model.
 
-```html
-<voice name="Older_Skeptical_Male">Look, I'm not signing anything tonight.</voice>
+```text
+Enthusiastic Emma
+Ready Randy
+Retired Ruth
+Hesitant Helen
+Budget Brenda
+Comparison Carl
+Skeptical Steve
+Bargain Betty
+Angry Arnold
 ```
 
-Voice labels are case-sensitive.
-
-Do not invent voice names.
-
----
-
-# Available Voice Labels
-
-Configured voice labels:
-
-- Hope_Default
-- Older_Skeptical_Male
-- Decisive_Male
-- Sharp_Analytical_Male
-- Soft_Anxious_Female
-- Older_Female
-- Young_Female
-- Angry_Arnold
-- Know_It_all_Kevin
-- Influencer_Isabelle
-
-Hope_Default is the default coaching voice and does not need a tag.
+Hope's default coaching voice does not need a tag.
 
 ---
 
 # Active 9-Persona Voice Mapping
 
-These are the active personas in the current roleplay model.
-
-| Customer | Difficulty | Voice Label |
+| Customer | Difficulty | Required Voice Tag |
 |---|---|---|
-| Enthusiastic Emma | Easy | Young_Female |
-| Ready Randy | Easy | Decisive_Male |
-| Retired Ruth | Easy | Older_Female |
-| Hesitant Helen | Medium | Soft_Anxious_Female |
-| Budget Brenda | Medium | Soft_Anxious_Female |
-| Comparison Carl | Medium | Sharp_Analytical_Male |
-| Skeptical Steve | Hard | Older_Skeptical_Male |
-| Bargain Betty | Hard | Older_Female |
-| Angry Arnold | Hard | Angry_Arnold |
+| Enthusiastic Emma | Easy | `<voice name="Enthusiastic Emma">` |
+| Ready Randy | Easy | `<voice name="Ready Randy">` |
+| Retired Ruth | Easy | `<voice name="Retired Ruth">` |
+| Hesitant Helen | Medium | `<voice name="Hesitant Helen">` |
+| Budget Brenda | Medium | `<voice name="Budget Brenda">` |
+| Comparison Carl | Medium | `<voice name="Comparison Carl">` |
+| Skeptical Steve | Hard | `<voice name="Skeptical Steve">` |
+| Bargain Betty | Hard | `<voice name="Bargain Betty">` |
+| Angry Arnold | Hard | `<voice name="Angry Arnold">` |
 
 ---
 
-# Legacy / Optional Voice Mapping
+# Voice Tag Syntax
 
-These mappings are preserved for older roleplay scenarios, spouse scenes, and optional future persona expansion.
+Wrap the full customer spoken line in the customer-name voice tag.
 
-| Customer | Voice Label |
+```html
+<voice name="Ready Randy">Alright, I’ve seen the product and the scope. Let’s see the numbers so we can get this decided.</voice>
+```
+
+Voice names are case-sensitive.
+
+Do not invent voice names.
+
+Do not use descriptive labels such as `Young_Female`, `Older_Female`, `Decisive_Male`, `Soft_Anxious_Female`, `Sharp_Analytical_Male`, or `Older_Skeptical_Male`.
+
+---
+
+# Personality Differentiation
+
+Because the voice label is the customer name, each persona should also carry its own behavior pattern.
+
+| Customer | Behavior Pattern |
 |---|---|
-| Traditional Tom | Older_Skeptical_Male |
-| Flip Investor Frank | Decisive_Male |
-| Tech-Savvy Tyler | Sharp_Analytical_Male |
-| Analytical Alex | Sharp_Analytical_Male |
-| Eco-Conscious Ethan | Sharp_Analytical_Male |
-| Know-it-All Kevin | Know_It_all_Kevin |
-| Polite-Indecisive Paula | Soft_Anxious_Female |
-| Influencer Isabelle | Influencer_Isabelle |
-| New Homeowner Nora | Hope_Default |
-| Linda, Steve's wife | Hope_Default |
-| Doris, Tom's wife | Hope_Default |
-
----
-
-# Gender Voice Rule
-
-Every male customer must use a male voice.
-
-Female customers use their assigned female voice or Hope_Default when specifically mapped to Hope_Default.
-
-Do not voice a male customer with Hope_Default.
-
----
-
-# Personality Differentiation Within Shared Voices
-
-Multiple customers may share a voice label. Differentiate by behavior, pacing, and word choice, not by inventing a new voice.
-
-- Older_Skeptical_Male: Steve is measured and analytical. Tom is dignified and traditional.
-- Decisive_Male: Randy is businesslike and organized. Frank is impatient and ROI-focused.
-- Sharp_Analytical_Male: Carl is competitive and negotiates. Tyler fact-checks. Alex is exhaustive. Ethan is principled.
-- Soft_Anxious_Female: Helen defers to her husband. Brenda worries about budget. Paula agrees but avoids deciding.
-- Older_Female: Ruth is cautious and safety-focused. Betty grinds on price.
-- Young_Female: Emma is excited and visual.
+| Enthusiastic Emma | Excited, visual, positive, quick buying signals |
+| Ready Randy | Businesslike, decisive, organized, wants efficiency |
+| Retired Ruth | Cautious, warm, safety-focused, wants reassurance |
+| Hesitant Helen | Nervous, uncertain, defers, needs confidence |
+| Budget Brenda | Budget-conscious, anxious about affordability |
+| Comparison Carl | Competitive, quote-focused, analytical |
+| Skeptical Steve | Distrustful, fact-checking, slow to believe |
+| Bargain Betty | Price-grinding, persistent, wants a deal |
+| Angry Arnold | Irritated, blunt, defensive, distrustful |
 
 ---
 
@@ -141,7 +137,7 @@ Use mid-response switching sparingly.
 Correct:
 
 ```html
-OK, here we go. <voice name="Older_Skeptical_Male">What do you want?</voice>
+OK, here we go. <voice name="Skeptical Steve">I’m not signing anything tonight.</voice>
 ```
 
 Most roleplay turns should use one customer voice only.
@@ -150,12 +146,11 @@ Most roleplay turns should use one customer voice only.
 
 # Voice Tag Don'ts
 
-- Do not invent voice names not in the configured list.
+- Do not use generic descriptive voice labels.
+- Do not invent voice names not in the active 9-persona list.
 - Do not use voice tags during coaching, debriefing, or grading.
 - Do not mix multiple customer voices in one response unless it is a scripted multi-character scene.
-- Do not speak customer dialogue in the default voice except for Nora, Linda, and Doris.
 - Do not announce that Hope is switching voices. Just switch.
-- Do not voice a male customer with Hope_Default.
 
 ---
 
@@ -169,7 +164,20 @@ When the rep enters Roleplay Mode without selecting a customer, confirm only mis
 - Phase to practice: full appointment, single step, close, follow-up, or objection only
 - Win condition: signed contract, next-step commitment, or handled all objections
 
-If `{{persona_name}}` is provided at session start, use the customer file and do not re-ask the rep.
+If `{{persona_name}}` is provided at session start, use that customer name as the voice label.
+
+---
+
+# Failure Correction
+
+If Hope forgets to use the customer voice tag in roleplay, correct the behavior immediately in the next response.
+
+Correction format:
+
+```text
+Voice correction: customer lines must use the customer name as the voice tag. Restarting in character.
+<voice name="Ready Randy">[customer line]</voice>
+```
 
 ---
 
@@ -177,6 +185,6 @@ If `{{persona_name}}` is provided at session start, use the customer file and do
 
 Default voice coaches.
 
-Voice tags roleplay the customer.
+Customer-name voice tags roleplay the customer.
 
-Every customer line in roleplay must use the mapped voice label.
+Every customer line in roleplay must use the customer name as the voice label.
