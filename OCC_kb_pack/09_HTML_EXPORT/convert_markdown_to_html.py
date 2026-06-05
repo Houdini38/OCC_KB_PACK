@@ -22,6 +22,7 @@ EXPORT_FILES = [
     "01_CORE_RULES_PROMPT_MODE/07_Mode_Definitions.md",
     "01_CORE_RULES_PROMPT_MODE/08_Conflict_Priority_Hierarchy.md",
     "01_CORE_RULES_PROMPT_MODE/09_ElevenLabs_Voice_Mapping.md",
+    "01_CORE_RULES_PROMPT_MODE/10_Hope_Voice_Mapping_Guide.md",
     "02_APPROVED_LANGUAGE/01_Opening_and_Setting_Expectations.md",
     "02_APPROVED_LANGUAGE/02_Discovery_Questions.md",
     "02_APPROVED_LANGUAGE/03_Demo_and_Education_Language.md",
@@ -68,13 +69,19 @@ EXPORT_FILES = [
     "08_ROLEPLAY_SCENARIOS/07_Objection_Drill_Bank.md",
     "08_ROLEPLAY_SCENARIOS/08_Follow_Up_Call_Drills.md",
     "08_ROLEPLAY_SCENARIOS/09_Pressure_Modifiers.md",
-    "80_COACHING/00_Roleplay_Scoring_Rubric.md",
-    "80_COACHING/01_Coaching_Rules.md",
-    "80_COACHING/02_KPI_Definitions.md",
-    "80_COACHING/03_Quick_Drill_Scoring_Rubric.md",
-    "80_COACHING/04_Upstream_Diagnosis.md",
-    "80_COACHING/05_Hope_Coaching_Protocol.md",
-    "80_COACHING/06_Manager_Drill_Sheet.md",
+    "08_Coaching/00_Roleplay_Scoring_Rubric.md",
+    "08_Coaching/01_Coaching_Rules.md",
+    "08_Coaching/02_KPI_Definitions.md",
+    "08_Coaching/03_Quick_Drill_Scoring_Rubric.md",
+    "08_Coaching/04_Upstream_Diagnosis.md",
+    "08_Coaching/05_Hope_Coaching_Protocol.md",
+    "08_Coaching/06_Manager_Drill_Sheet.md",
+    "09_FAQ/00_Customer_FAQ.md",
+    "09_FAQ/01_Rep_FAQ.md",
+    "09_FAQ/02_Product_FAQ.md",
+    "09_FAQ/03_Financing_FAQ.md",
+    "09_FAQ/04_Warranty_FAQ.md",
+    "09_FAQ/05_Hope_FAQ.md",
 ]
 
 
@@ -154,92 +161,43 @@ def markdown_to_html(md: str) -> str:
     while i < len(lines):
         line = lines[i]
         stripped = line.strip()
-
         if not stripped:
-            close_lists()
-            close_blockquote()
-            i += 1
-            continue
-
+            close_lists(); close_blockquote(); i += 1; continue
         if stripped.startswith("```"):
-            close_lists()
-            close_blockquote()
-            code_lines = []
-            i += 1
+            close_lists(); close_blockquote(); code_lines = []; i += 1
             while i < len(lines) and not lines[i].strip().startswith("```"):
-                code_lines.append(lines[i])
-                i += 1
-            if i < len(lines):
-                i += 1
-            out.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>")
-            continue
-
+                code_lines.append(lines[i]); i += 1
+            if i < len(lines): i += 1
+            out.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>"); continue
         if stripped.startswith("|"):
-            close_lists()
-            close_blockquote()
-            table_html, consumed = convert_table(lines[i:])
+            close_lists(); close_blockquote(); table_html, consumed = convert_table(lines[i:])
             if consumed:
-                out.append(table_html)
-                i += consumed
-                continue
-
+                out.append(table_html); i += consumed; continue
         heading_match = re.match(r"^(#{1,4})\s+(.*)$", stripped)
         if heading_match:
-            close_lists()
-            close_blockquote()
-            level = len(heading_match.group(1))
-            text = inline_md(heading_match.group(2))
-            out.append(f"<h{level}>{text}</h{level}>")
-            i += 1
-            continue
-
+            close_lists(); close_blockquote(); level = len(heading_match.group(1)); text = inline_md(heading_match.group(2))
+            out.append(f"<h{level}>{text}</h{level}>"); i += 1; continue
         if stripped == "---":
-            close_lists()
-            close_blockquote()
-            out.append("<hr>")
-            i += 1
-            continue
-
+            close_lists(); close_blockquote(); out.append("<hr>"); i += 1; continue
         if stripped.startswith(">"):
             close_lists()
             if not in_blockquote:
-                out.append("<blockquote>")
-                in_blockquote = True
+                out.append("<blockquote>"); in_blockquote = True
             quote = stripped.lstrip(">").strip()
-            if quote:
-                out.append(f"<p>{inline_md(quote)}</p>")
-            i += 1
-            continue
-
+            if quote: out.append(f"<p>{inline_md(quote)}</p>")
+            i += 1; continue
         if re.match(r"^[-*]\s+", stripped):
             close_blockquote()
             if not in_ul:
-                close_lists()
-                out.append("<ul>")
-                in_ul = True
-            item = re.sub(r"^[-*]\s+", "", stripped)
-            out.append(f"<li>{inline_md(item)}</li>")
-            i += 1
-            continue
-
+                close_lists(); out.append("<ul>"); in_ul = True
+            item = re.sub(r"^[-*]\s+", "", stripped); out.append(f"<li>{inline_md(item)}</li>"); i += 1; continue
         if re.match(r"^\d+\.\s+", stripped):
             close_blockquote()
             if not in_ol:
-                close_lists()
-                out.append("<ol>")
-                in_ol = True
-            item = re.sub(r"^\d+\.\s+", "", stripped)
-            out.append(f"<li>{inline_md(item)}</li>")
-            i += 1
-            continue
-
-        close_lists()
-        close_blockquote()
-        out.append(f"<p>{inline_md(stripped)}</p>")
-        i += 1
-
-    close_lists()
-    close_blockquote()
+                close_lists(); out.append("<ol>"); in_ol = True
+            item = re.sub(r"^\d+\.\s+", "", stripped); out.append(f"<li>{inline_md(item)}</li>"); i += 1; continue
+        close_lists(); close_blockquote(); out.append(f"<p>{inline_md(stripped)}</p>"); i += 1
+    close_lists(); close_blockquote()
     return "\n".join(out)
 
 
@@ -247,9 +205,7 @@ def render_html(meta: dict[str, str], body_html: str, source_path: str) -> str:
     title = meta.get("title") or Path(source_path).stem.replace("_", " ")
     keys = ["doc_id", "version", "owner", "last_updated", "priority_tier", "applies_to", "tags"]
     meta_tags = [f'  <meta name="{k}" content="{html.escape(meta.get(k, ""))}">' for k in keys]
-    visible_meta = "\n".join(
-        f"        <p><strong>{k.replace('_', ' ').title()}:</strong> {html.escape(meta.get(k, ''))}</p>" for k in keys
-    )
+    visible_meta = "\n".join(f"        <p><strong>{k.replace('_', ' ').title()}:</strong> {html.escape(meta.get(k, ''))}</p>" for k in keys)
     return f"""<!doctype html>
 <html lang=\"en\">
 <head>
@@ -281,8 +237,7 @@ def main() -> None:
     for rel in EXPORT_FILES:
         src = KB_ROOT / rel
         if not src.exists():
-            missing.append(rel)
-            continue
+            missing.append(rel); continue
         text = src.read_text(encoding="utf-8")
         if "[VERIFY" in text:
             raise SystemExit(f"Blocked export: [VERIFY] placeholder found in {rel}")
