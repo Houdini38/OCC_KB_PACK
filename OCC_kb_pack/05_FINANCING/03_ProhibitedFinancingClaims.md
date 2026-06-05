@@ -1,183 +1,164 @@
 ---
-title: Prohibited Financing Claims — Compliance Guardrails
+title: Prohibited Financing Claims — Coach-First Guardrails
 doc_id: 40_FINANCING_003
-version: 1.0
-owner: Finance Manager
-last_updated: 2026-05-04
-priority_tier: 1
+version: 2.0
+owner: Finance Manager / Sales Training Lead
+last_updated: 2026-06-05
+priority_tier: 2
 applies_to: [coach_mode, financing_mode, roleplay_mode, demonstration_mode]
-tags: [financing, compliance, prohibited, disclosures, tier_1]
+tags: [financing, coaching, guardrails, step_8]
 ---
 
-# Prohibited Financing Claims — Compliance Guardrails
+# Prohibited Financing Claims — Coach-First Guardrails
 
-> **TIER 1 COMPLIANCE DOCUMENT.** Per Hope's priority hierarchy, compliance always wins. Hope must interrupt any roleplay, coaching session, or demonstration where these claims are made — no exceptions.
+## Purpose
 
----
+This document protects financing accuracy without turning Hope into a legal-disclosure machine.
 
-## Why This Document Exists
+Hope should coach financing as a sales execution issue first.
 
-GreenSky® consumer loans are made by **Synovus Bank, Member FDIC** (NMLS #408043). SuperiorPRO is **not the lender.** All credit decisions, rates, and terms are determined by program lenders. Misrepresenting any of this exposes SuperiorPRO to:
-
-- Federal consumer credit law violations (TILA, ECOA, UDAAP)
-- GreenSky merchant agreement termination
-- State licensing penalties
-- Civil liability and class-action exposure
-
-**Reps who use prohibited language must be corrected on the spot, every time.**
+The goal is to keep reps from misleading customers or inventing financing terms, while allowing normal roleplay and coaching flow to continue.
 
 ---
 
-## The 6 Categories of Prohibited Claims
+# Core Coaching Rule
 
-### Category 1: Approval Guarantees
+Hope should not interrupt normal roleplay just to force long financing disclosures.
 
-| ❌ Banned Phrase | ✅ Approved Replacement |
-|------------------|-------------------------|
-| "You're guaranteed to be approved." | "We can run a soft credit pull right now to see what you qualify for." |
-| "Everyone gets approved." | "GreenSky has a wide range of programs — let's see which one fits you." |
-| "Your credit is fine, no problem." | "The lender will make the final decision based on the application." |
-| "I can get you approved." | "I can submit the application for you — the lender decides." |
+For normal wording drift, let the rep finish and coach it in the debrief.
 
-**Why it's banned:** SuperiorPRO does not approve loans. Promising approval is a misrepresentation that violates federal and state lending law.
+Hard-stop only when the rep creates a serious customer-facing problem, such as:
 
----
-
-### Category 2: Rate or Term Promises Outside Lender Control
-
-| ❌ Banned Phrase | ✅ Approved Replacement |
-|------------------|-------------------------|
-| "You'll get the lowest rate." | "Plan 9998 offers rates from 7.99% to 19.99% APR — the lender will determine your specific rate." |
-| "Your rate will be 0%." (on a range plan) | "We have 0% APR plans available — let's see which one you qualify for." |
-| "I can lock in this rate for you." | "Today's promotion is available — the lender confirms your specific terms at approval." |
-| "You'll definitely get 84 months." | "We offer terms up to 180 months depending on the plan you qualify for." |
-
-**Why it's banned:** Range-plan rates (9991, 9992, 9998) and deferred-interest plans (2511, 2521, 2531) span wide APR ranges. Promising a specific rate is misleading and creates legal liability if the customer receives a different rate.
+1. Guaranteed approval
+2. Guaranteed rate, term, payment, or credit result
+3. Invented financing plan, APR, term, payment factor, or lender decision
+4. Telling the customer SuperiorPRO approves or provides the loan
+5. Fake manager authority or fake financing authority
 
 ---
 
-### Category 3: "Free" Financing Language
+# Practical Guardrails
 
-| ❌ Banned Phrase | ✅ Approved Replacement |
-|------------------|-------------------------|
-| "Free financing." | "0% APR financing." |
-| "No-cost financing." | "0% APR — no interest charges if paid within the promotional period." |
-| "We're giving you the loan." | "We work with GreenSky to offer financing options." |
-| "There's no catch." | "Here's how the plan works…" *(then explain terms)* |
+## 1. Do not guarantee approval
 
-**Why it's banned:** No financing is "free." Even 0% APR plans have terms, conditions, and consequences for missed payments. Calling financing "free" is a UDAAP violation (Unfair, Deceptive, or Abusive Acts or Practices).
+Avoid saying:
 
----
+- "You will be approved."
+- "Everyone gets approved."
+- "Your credit is fine."
+- "I can get you approved."
 
-### Category 4: Misrepresenting Deferred Interest
+Coach-safe direction:
 
-This is the **highest-risk category.** Deferred interest plans (2511, 2521, 2531) accrue interest from day one — interest is only **waived** if the full balance is paid before the promo period ends.
-
-| ❌ Banned Phrase | ✅ Approved Replacement |
-|------------------|-------------------------|
-| "No interest for 18 months." | "Interest is waived if the full amount is paid within 18 months. If not paid in full, interest accrued during the promo period will be charged." |
-| "You won't pay any interest." | "You won't pay interest **if** the balance is paid in full before the promotional period ends." |
-| "It's basically a 0% loan." | "It's a deferred-interest plan — different from 0% APR. Let me explain how it works." |
-| "Just pay it off whenever." | "The promotional period ends in [6/12/18] months. After that, all accrued interest is added to your balance." |
-
-**Required disclosure for ALL deferred-interest plan presentations:**
-> *"Interest is waived if the full amount is paid before the promotional period ends. If not paid in full, interest that accrued during the promo period will be charged."*
-
-**Why it's banned:** Deferred interest is the #1 source of consumer complaints in home improvement financing. The CFPB has taken enforcement actions against contractors and lenders for misrepresenting these plans. Reps MUST explain the waiver condition every time.
+> The financing decision comes from the lender/application process. Do not guarantee the outcome.
 
 ---
 
-### Category 5: Implying SuperiorPRO Is the Lender
+## 2. Do not guarantee rate, term, or payment unless it is confirmed by the approved financing documents
 
-| ❌ Banned Phrase | ✅ Approved Replacement |
-|------------------|-------------------------|
-| "We'll finance you." | "We work with GreenSky for financing — Synovus Bank is the lender." |
-| "Our financing department will…" | "GreenSky's lender will…" |
-| "We approve everyone with decent credit." | "GreenSky reviews each application — the lender makes the final decision." |
-| "We can adjust your rate." | "Rates are set by the lender based on your application." |
+Avoid saying:
 
-**Why it's banned:** SuperiorPRO is a merchant, not a lender. GreenSky LLC and GreenSky Servicing are also not lenders — Synovus Bank (FDIC, NMLS #408043) is the lender of record. Misrepresenting the lender relationship violates TILA and federal disclosure requirements.
+- "You will definitely get this rate."
+- "Your payment will be exactly this."
+- "I can lock in your rate."
+- "You will definitely qualify for this term."
 
----
+Coach-safe direction:
 
-### Category 6: Bypassing Required Disclosures
-
-Reps may NEVER skip these disclosures during financing presentations:
-
-#### Required for ALL financing presentations
-> *"Financing is provided through GreenSky and made by Synovus Bank. The lender makes all credit decisions and determines your specific rate and terms."*
-
-#### Required for deferred-interest plans (2511, 2521, 2531)
-> *"Interest is waived if the full amount is paid before the promotional period ends. If not paid in full, interest that accrued during the promo period will be charged."*
-
-#### Required for deferred-interest WITH payments (4069)
-> *"Monthly payments are required during and after the promotional period. Interest is waived only if the full balance is paid before the promo period ends."*
-
-#### Required for range-rate plans (9991, 9992, 9998)
-> *"Your specific APR within this range is determined by the lender based on your application."*
-
-#### Required at end of presentation
-> *"GreenSky® program consumer loans are made by Synovus Bank, Member FDIC, NMLS #408043."*
+> Use only the current approved plan information. If the exact term is not confirmed, do not quote it as fact.
 
 ---
 
-# Hope's Compliance Interrupt Protocol
+## 3. Do not imply SuperiorPRO is the lender
 
-When Hope detects a prohibited claim during ANY mode (coaching, roleplay, demonstration), she must:
+Avoid saying:
 
-1. **Immediately break character** (drop voice tag if in roleplay)
-2. **Name the specific violation** (don't be vague)
-3. **Provide the approved replacement word-for-word**
-4. **Offer to rewind and re-attempt**
+- "We approve the loan."
+- "We finance you."
+- "Our financing department approves it."
+- "We can adjust your rate."
 
-## Example Interrupt Scripts
+Coach-safe direction:
 
-### During Roleplay
-> *"Pause — coach hat on. You just said 'guaranteed approval.' That's a Tier 1 compliance violation. The approved language is: 'We can run a soft credit pull to see what you qualify for — the lender makes the final decision.' Let's rewind 30 seconds and try that line again. Ready?"*
-
-### During Coaching
-> *"Stop right there. 'Free financing' is banned language — it's a UDAAP issue. The approved phrase is '0% APR financing.' Use that every time. Want to walk through why the wording matters?"*
-
-### During Demonstration Mode
-> *"Quick correction before we continue — I almost modeled 'no interest for 18 months' as a script line, but that violates deferred interest disclosure rules. The approved version is: 'Interest is waived if the full amount is paid within 18 months. If not paid in full, interest accrued during the promo period will be charged.' That's the full required disclosure."*
+> SuperiorPRO offers financing options through its financing program. Do not present SuperiorPRO as the lender or decision-maker.
 
 ---
 
-# Escalation Path
+## 4. Do not make up financing details
 
-If a rep repeatedly uses prohibited language after coaching:
+Avoid inventing:
 
-1. **First instance** — Hope corrects in real time, logs the coaching moment
-2. **Second instance in same session** — Hope escalates to manager review note in the session debrief
-3. **Pattern across sessions** — Manager runs a focused compliance retraining before the rep returns to the field
-4. **Severe violation in front of customer** (documented) — Sales Manager + Finance Manager review; potential ride-along required before next solo appointment
+- APR
+- Term
+- Payment factor
+- Approval likelihood
+- Credit pull type
+- Prepayment rule
+- Promotional plan term
+- Deferred-interest details
 
----
+Coach-safe direction:
 
-# Quick-Reference Banned Phrase Index
-
-Reps should memorize this list. If they catch themselves about to say any of these, **stop and rephrase.**
-
-- ❌ "Guaranteed approval"
-- ❌ "You'll definitely get [rate]"
-- ❌ "Free financing"
-- ❌ "No-cost financing"
-- ❌ "No interest for [X] months" *(without the waiver disclosure)*
-- ❌ "Just pay it off whenever"
-- ❌ "We're the lender"
-- ❌ "We approve you"
-- ❌ "We can adjust your rate"
-- ❌ "I can lock in this rate"
-- ❌ "Our financing"
-- ❌ "Lowest rate guaranteed"
-- ❌ "There's no catch"
+> If it is not in the approved financing documents, do not say it in the home.
 
 ---
 
-# Related Documents
+# Hope Coaching Behavior
 
-- `40_FINANCING_000` — Financing Overview
-- `40_FINANCING_001` — Financing Plans (approved plan menu and disclosures)
-- `40_FINANCING_002` — Financing Objection Handling
-- `00_COMPLIANCE_001` — Prohibited Claims (general — product, warranty, manufacturer)
-- `05_Hope_System_Prompt_v4` — Compliance Interrupts ALL Modes section
+## Normal roleplay
+
+Let the rep continue unless the wording seriously misleads the customer.
+
+Coach minor financing wording in the debrief.
+
+Example:
+
+```text
+Your Step 8 structure was right, but tighten the financing language. Do not sound like SuperiorPRO is approving the loan. Keep the focus on monthly comfort and use only approved plan terms.
+```
+
+## Serious customer-risk claim
+
+Briefly interrupt, correct, and restart.
+
+Example:
+
+```text
+Stop. That creates a customer-risk issue.
+Issue: You guaranteed approval.
+Use this instead: We can look at the financing options available and see what fits.
+Restart from the payment explanation.
+```
+
+---
+
+# What Hope Should Prioritize in Step 8
+
+Hope should coach reps back to the approved Step 8 sequence:
+
+1. Present List Price.
+2. Present monthly payment.
+3. Ask how the payment fits the budget.
+4. Isolate monthly comfort.
+5. Confirm the monthly target.
+6. Trial-close at List Price.
+7. Offer Monthly Promotion.
+8. Use Add/Subtract/Sharp Angle only if still needed.
+
+---
+
+# What This Document Does Not Require
+
+This document does not require Hope to force reps to recite long legal disclosures during normal in-person roleplay.
+
+This document does not require Hope to stop every financing sentence.
+
+This document does not turn every financing wording issue into a compliance interruption.
+
+---
+
+# Final Rule
+
+Coach financing like a sales manager.
+
+Protect against invented or misleading financing claims, but keep the rep practicing the sales process.
