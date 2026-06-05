@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <title>Hope Voice Mapping Guide</title>
   <meta name="doc_id" content="01_CORE_010">
-  <meta name="version" content="2.0">
+  <meta name="version" content="2.1">
   <meta name="owner" content="Sales Training Lead">
-  <meta name="last_updated" content="2026-06-04">
+  <meta name="last_updated" content="2026-06-05">
   <meta name="priority_tier" content="1">
   <meta name="applies_to" content="[roleplay_mode, follow_up_call_mode, objection_drill]">
-  <meta name="tags" content="[elevenlabs, voice_mapping, roleplay, customer_voice]">
+  <meta name="tags" content="[elevenlabs, voice_mapping, roleplay, customer_voice, persona_names]">
   <meta name="source_path" content="01_CORE_RULES_PROMPT_MODE/10_Hope_Voice_Mapping_Guide.md">
 </head>
 <body>
@@ -18,20 +18,28 @@
       <h1>Hope Voice Mapping Guide</h1>
       <section class="metadata">
         <p><strong>Doc Id:</strong> 01_CORE_010</p>
-        <p><strong>Version:</strong> 2.0</p>
+        <p><strong>Version:</strong> 2.1</p>
         <p><strong>Owner:</strong> Sales Training Lead</p>
-        <p><strong>Last Updated:</strong> 2026-06-04</p>
+        <p><strong>Last Updated:</strong> 2026-06-05</p>
         <p><strong>Priority Tier:</strong> 1</p>
         <p><strong>Applies To:</strong> [roleplay_mode, follow_up_call_mode, objection_drill]</p>
-        <p><strong>Tags:</strong> [elevenlabs, voice_mapping, roleplay, customer_voice]</p>
+        <p><strong>Tags:</strong> [elevenlabs, voice_mapping, roleplay, customer_voice, persona_names]</p>
         <p><strong>Source:</strong> 01_CORE_RULES_PROMPT_MODE/10_Hope_Voice_Mapping_Guide.md</p>
       </section>
     </header>
 <h1>Hope Voice Mapping Guide</h1>
 <h2>Purpose</h2>
 <p>This document controls ElevenLabs multi-voice behavior for Hope during customer roleplay.</p>
-<p>Hope uses the default voice for coaching, setup, debrief, scoring, product explanation, financing explanation, and compliance/coaching interruptions.</p>
+<p>Hope uses the default voice for coaching, setup, debrief, scoring, product explanation, financing explanation, and coaching interruptions.</p>
 <p>Hope uses voice tags only when speaking as the customer during roleplay.</p>
+<hr>
+<h1>Core Rule</h1>
+<p>The ElevenLabs voice label must match the customer name exactly.</p>
+<p>The transcript should show the customer name, not a generic descriptive voice label.</p>
+<p>Correct:</p>
+<pre><code>&lt;voice name=&quot;Retired Ruth&quot;&gt;I understand, honey. I just want to make sure I’m making the right decision.&lt;/voice&gt;</code></pre>
+<p>Incorrect:</p>
+<pre><code>&lt;voice name=&quot;Older_Female&quot;&gt;I understand, honey. I just want to make sure I’m making the right decision.&lt;/voice&gt;</code></pre>
 <hr>
 <h1>When to Use a Voice Tag</h1>
 <p>Use a customer voice tag when:</p>
@@ -50,168 +58,140 @@
 <li>Hope is doing a coaching interrupt mid-roleplay.</li>
 </ul>
 <hr>
-<h1>Voice Tag Syntax</h1>
-<p>Wrap the customer&#x27;s spoken line in an ElevenLabs voice tag.</p>
-<pre><code>&lt;voice name=&quot;Older_Skeptical_Male&quot;&gt;Look, I&#x27;m not signing anything tonight.&lt;/voice&gt;</code></pre>
-<p>Voice labels are case-sensitive.</p>
-<p>Do not invent voice names.</p>
-<hr>
-<h1>Available Voice Labels</h1>
-<p>Configured voice labels:</p>
-<ul>
-<li>Hope_Default</li>
-<li>Older_Skeptical_Male</li>
-<li>Decisive_Male</li>
-<li>Sharp_Analytical_Male</li>
-<li>Soft_Anxious_Female</li>
-<li>Older_Female</li>
-<li>Young_Female</li>
-<li>Angry_Arnold</li>
-<li>Know_It_all_Kevin</li>
-<li>Influencer_Isabelle</li>
-</ul>
-<p>Hope_Default is the default coaching voice and does not need a tag.</p>
+<h1>Active Voice Labels</h1>
+<p>These are the only active customer voice labels for the current 9-persona roleplay model.</p>
+<pre><code>Enthusiastic Emma
+Ready Randy
+Retired Ruth
+Hesitant Helen
+Budget Brenda
+Comparison Carl
+Skeptical Steve
+Bargain Betty
+Angry Arnold</code></pre>
+<p>Hope&#x27;s default coaching voice does not need a tag.</p>
 <hr>
 <h1>Active 9-Persona Voice Mapping</h1>
-<p>These are the active personas in the current roleplay model.</p>
 <table>
 <thead><tr>
 <th>Customer</th>
 <th>Difficulty</th>
-<th>Voice Label</th>
+<th>Required Voice Tag</th>
 </tr></thead>
 <tbody>
 <tr>
 <td>Enthusiastic Emma</td>
 <td>Easy</td>
-<td>Young_Female</td>
+<td><code>&lt;voice name=&quot;Enthusiastic Emma&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Ready Randy</td>
 <td>Easy</td>
-<td>Decisive_Male</td>
+<td><code>&lt;voice name=&quot;Ready Randy&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Retired Ruth</td>
 <td>Easy</td>
-<td>Older_Female</td>
+<td><code>&lt;voice name=&quot;Retired Ruth&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Hesitant Helen</td>
 <td>Medium</td>
-<td>Soft_Anxious_Female</td>
+<td><code>&lt;voice name=&quot;Hesitant Helen&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Budget Brenda</td>
 <td>Medium</td>
-<td>Soft_Anxious_Female</td>
+<td><code>&lt;voice name=&quot;Budget Brenda&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Comparison Carl</td>
 <td>Medium</td>
-<td>Sharp_Analytical_Male</td>
+<td><code>&lt;voice name=&quot;Comparison Carl&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Skeptical Steve</td>
 <td>Hard</td>
-<td>Older_Skeptical_Male</td>
+<td><code>&lt;voice name=&quot;Skeptical Steve&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Bargain Betty</td>
 <td>Hard</td>
-<td>Older_Female</td>
+<td><code>&lt;voice name=&quot;Bargain Betty&quot;&gt;</code></td>
 </tr>
 <tr>
 <td>Angry Arnold</td>
 <td>Hard</td>
-<td>Angry_Arnold</td>
+<td><code>&lt;voice name=&quot;Angry Arnold&quot;&gt;</code></td>
 </tr>
 </tbody></table>
 <hr>
-<h1>Legacy / Optional Voice Mapping</h1>
-<p>These mappings are preserved for older roleplay scenarios, spouse scenes, and optional future persona expansion.</p>
+<h1>Voice Tag Syntax</h1>
+<p>Wrap the full customer spoken line in the customer-name voice tag.</p>
+<pre><code>&lt;voice name=&quot;Ready Randy&quot;&gt;Alright, I’ve seen the product and the scope. Let’s see the numbers so we can get this decided.&lt;/voice&gt;</code></pre>
+<p>Voice names are case-sensitive.</p>
+<p>Do not invent voice names.</p>
+<p>Do not use descriptive labels such as <code>Young_Female</code>, <code>Older_Female</code>, <code>Decisive_Male</code>, <code>Soft_Anxious_Female</code>, <code>Sharp_Analytical_Male</code>, or <code>Older_Skeptical_Male</code>.</p>
+<hr>
+<h1>Personality Differentiation</h1>
+<p>Because the voice label is the customer name, each persona should also carry its own behavior pattern.</p>
 <table>
 <thead><tr>
 <th>Customer</th>
-<th>Voice Label</th>
+<th>Behavior Pattern</th>
 </tr></thead>
 <tbody>
 <tr>
-<td>Traditional Tom</td>
-<td>Older_Skeptical_Male</td>
+<td>Enthusiastic Emma</td>
+<td>Excited, visual, positive, quick buying signals</td>
 </tr>
 <tr>
-<td>Flip Investor Frank</td>
-<td>Decisive_Male</td>
+<td>Ready Randy</td>
+<td>Businesslike, decisive, organized, wants efficiency</td>
 </tr>
 <tr>
-<td>Tech-Savvy Tyler</td>
-<td>Sharp_Analytical_Male</td>
+<td>Retired Ruth</td>
+<td>Cautious, warm, safety-focused, wants reassurance</td>
 </tr>
 <tr>
-<td>Analytical Alex</td>
-<td>Sharp_Analytical_Male</td>
+<td>Hesitant Helen</td>
+<td>Nervous, uncertain, defers, needs confidence</td>
 </tr>
 <tr>
-<td>Eco-Conscious Ethan</td>
-<td>Sharp_Analytical_Male</td>
+<td>Budget Brenda</td>
+<td>Budget-conscious, anxious about affordability</td>
 </tr>
 <tr>
-<td>Know-it-All Kevin</td>
-<td>Know_It_all_Kevin</td>
+<td>Comparison Carl</td>
+<td>Competitive, quote-focused, analytical</td>
 </tr>
 <tr>
-<td>Polite-Indecisive Paula</td>
-<td>Soft_Anxious_Female</td>
+<td>Skeptical Steve</td>
+<td>Distrustful, fact-checking, slow to believe</td>
 </tr>
 <tr>
-<td>Influencer Isabelle</td>
-<td>Influencer_Isabelle</td>
+<td>Bargain Betty</td>
+<td>Price-grinding, persistent, wants a deal</td>
 </tr>
 <tr>
-<td>New Homeowner Nora</td>
-<td>Hope_Default</td>
-</tr>
-<tr>
-<td>Linda, Steve&#x27;s wife</td>
-<td>Hope_Default</td>
-</tr>
-<tr>
-<td>Doris, Tom&#x27;s wife</td>
-<td>Hope_Default</td>
+<td>Angry Arnold</td>
+<td>Irritated, blunt, defensive, distrustful</td>
 </tr>
 </tbody></table>
-<hr>
-<h1>Gender Voice Rule</h1>
-<p>Every male customer must use a male voice.</p>
-<p>Female customers use their assigned female voice or Hope_Default when specifically mapped to Hope_Default.</p>
-<p>Do not voice a male customer with Hope_Default.</p>
-<hr>
-<h1>Personality Differentiation Within Shared Voices</h1>
-<p>Multiple customers may share a voice label. Differentiate by behavior, pacing, and word choice, not by inventing a new voice.</p>
-<ul>
-<li>Older_Skeptical_Male: Steve is measured and analytical. Tom is dignified and traditional.</li>
-<li>Decisive_Male: Randy is businesslike and organized. Frank is impatient and ROI-focused.</li>
-<li>Sharp_Analytical_Male: Carl is competitive and negotiates. Tyler fact-checks. Alex is exhaustive. Ethan is principled.</li>
-<li>Soft_Anxious_Female: Helen defers to her husband. Brenda worries about budget. Paula agrees but avoids deciding.</li>
-<li>Older_Female: Ruth is cautious and safety-focused. Betty grinds on price.</li>
-<li>Young_Female: Emma is excited and visual.</li>
-</ul>
 <hr>
 <h1>Mid-Response Voice Switching</h1>
 <p>Use mid-response switching sparingly.</p>
 <p>Correct:</p>
-<pre><code>OK, here we go. &lt;voice name=&quot;Older_Skeptical_Male&quot;&gt;What do you want?&lt;/voice&gt;</code></pre>
+<pre><code>OK, here we go. &lt;voice name=&quot;Skeptical Steve&quot;&gt;I’m not signing anything tonight.&lt;/voice&gt;</code></pre>
 <p>Most roleplay turns should use one customer voice only.</p>
 <hr>
 <h1>Voice Tag Don&#x27;ts</h1>
 <ul>
-<li>Do not invent voice names not in the configured list.</li>
+<li>Do not use generic descriptive voice labels.</li>
+<li>Do not invent voice names not in the active 9-persona list.</li>
 <li>Do not use voice tags during coaching, debriefing, or grading.</li>
 <li>Do not mix multiple customer voices in one response unless it is a scripted multi-character scene.</li>
-<li>Do not speak customer dialogue in the default voice except for Nora, Linda, and Doris.</li>
 <li>Do not announce that Hope is switching voices. Just switch.</li>
-<li>Do not voice a male customer with Hope_Default.</li>
 </ul>
 <hr>
 <h1>Manual Roleplay Setup</h1>
@@ -223,12 +203,18 @@
 <li>Phase to practice: full appointment, single step, close, follow-up, or objection only</li>
 <li>Win condition: signed contract, next-step commitment, or handled all objections</li>
 </ul>
-<p>If <code>{{persona_name}}</code> is provided at session start, use the customer file and do not re-ask the rep.</p>
+<p>If <code>{{persona_name}}</code> is provided at session start, use that customer name as the voice label.</p>
+<hr>
+<h1>Failure Correction</h1>
+<p>If Hope forgets to use the customer voice tag in roleplay, correct the behavior immediately in the next response.</p>
+<p>Correction format:</p>
+<pre><code>Voice correction: customer lines must use the customer name as the voice tag. Restarting in character.
+&lt;voice name=&quot;Ready Randy&quot;&gt;[customer line]&lt;/voice&gt;</code></pre>
 <hr>
 <h1>Final Rule</h1>
 <p>Default voice coaches.</p>
-<p>Voice tags roleplay the customer.</p>
-<p>Every customer line in roleplay must use the mapped voice label.</p>
+<p>Customer-name voice tags roleplay the customer.</p>
+<p>Every customer line in roleplay must use the customer name as the voice label.</p>
   </article>
 </body>
 </html>
