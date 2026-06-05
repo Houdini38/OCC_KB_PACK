@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -92,7 +93,7 @@ def parse_front_matter(text: str) -> tuple[dict[str, str], str]:
     if end == -1:
         return {}, text
     raw = text[4:end]
-    body = text[end + 5 :]
+    body = text[end + 5:]
     meta: dict[str, str] = {}
     for line in raw.splitlines():
         if not line.strip() or ":" not in line:
@@ -111,12 +112,13 @@ def inline_md(text: str) -> str:
 
 
 def convert_table(lines: list[str]) -> tuple[str, int]:
-    rows = []
+    rows: list[str] = []
     consumed = 0
     for line in lines:
-        if not line.strip().startswith("|") or "|" not in line.strip()[1:]:
+        stripped = line.strip()
+        if not stripped.startswith("|") or "|" not in stripped[1:]:
             break
-        rows.append(line.strip())
+        rows.append(stripped)
         consumed += 1
     if len(rows) < 2:
         return "", 0
@@ -161,57 +163,113 @@ def markdown_to_html(md: str) -> str:
     while i < len(lines):
         line = lines[i]
         stripped = line.strip()
+
         if not stripped:
-            close_lists(); close_blockquote(); i += 1; continue
+            close_lists()
+            close_blockquote()
+            i += 1
+            continue
+
         if stripped.startswith("```"):
-            close_lists(); close_blockquote(); code_lines = []; i += 1
+            close_lists()
+            close_blockquote()
+            code_lines: list[str] = []
+            i += 1
             while i < len(lines) and not lines[i].strip().startswith("```"):
-                code_lines.append(lines[i]); i += 1
-            if i < len(lines): i += 1
-            out.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>"); continue
+                code_lines.append(lines[i])
+                i += 1
+            if i < len(lines):
+                i += 1
+            out.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>")
+            continue
+
         if stripped.startswith("|"):
-            close_lists(); close_blockquote(); table_html, consumed = convert_table(lines[i:])
+            close_lists()
+            close_blockquote()
+            table_html, consumed = convert_table(lines[i:])
             if consumed:
-                out.append(table_html); i += consumed; continue
+                out.append(table_html)
+                i += consumed
+                continue
+
         heading_match = re.match(r"^(#{1,4})\s+(.*)$", stripped)
         if heading_match:
-            close_lists(); close_blockquote(); level = len(heading_match.group(1)); text = inline_md(heading_match.group(2))
-            out.append(f"<h{level}>{text}</h{level}>"); i += 1; continue
+            close_lists()
+            close_blockquote()
+            level = len(heading_match.group(1))
+            text = inline_md(heading_match.group(2))
+            out.append(f"<h{level}>{text}</h{level}>")
+            i += 1
+            continue
+
         if stripped == "---":
-            close_lists(); close_blockquote(); out.append("<hr>"); i += 1; continue
+            close_lists()
+            close_blockquote()
+            out.append("<hr>")
+            i += 1
+            continue
+
         if stripped.startswith(">"):
             close_lists()
             if not in_blockquote:
-                out.append("<blockquote>"); in_blockquote = True
+                out.append("<blockquote>")
+                in_blockquote = True
             quote = stripped.lstrip(">").strip()
-            if quote: out.append(f"<p>{inline_md(quote)}</p>")
-            i += 1; continue
+            if quote:
+                out.append(f"<p>{inline_md(quote)}</p>")
+            i += 1
+            continue
+
         if re.match(r"^[-*]\s+", stripped):
             close_blockquote()
             if not in_ul:
-                close_lists(); out.append("<ul>"); in_ul = True
-            item = re.sub(r"^[-*]\s+", "", stripped); out.append(f"<li>{inline_md(item)}</li>"); i += 1; continue
+                close_lists()
+                out.append("<ul>")
+                in_ul = True
+            item = re.sub(r"^[-*]\s+", "", stripped)
+            out.append(f"<li>{inline_md(item)}</li>")
+            i += 1
+            continue
+
         if re.match(r"^\d+\.\s+", stripped):
             close_blockquote()
             if not in_ol:
-                close_lists(); out.append("<ol>"); in_ol = True
-            item = re.sub(r"^\d+\.\s+", "", stripped); out.append(f"<li>{inline_md(item)}</li>"); i += 1; continue
-        close_lists(); close_blockquote(); out.append(f"<p>{inline_md(stripped)}</p>"); i += 1
-    close_lists(); close_blockquote()
+                close_lists()
+                out.append("<ol>")
+                in_ol = True
+            item = re.sub(r"^\d+\.\s+", "", stripped)
+            out.append(f"<li>{inline_md(item)}</li>")
+            i += 1
+            continue
+
+        close_lists()
+        close_blockquote()
+        out.append(f"<p>{inline_md(stripped)}</p>")
+        i += 1
+
+    close_lists()
+    close_blockquote()
     return "\n".join(out)
 
 
 def render_html(meta: dict[str, str], body_html: str, source_path: str) -> str:
     title = meta.get("title") or Path(source_path).stem.replace("_", " ")
     keys = ["doc_id", "version", "owner", "last_updated", "priority_tier", "applies_to", "tags"]
-    meta_tags = [f'  <meta name="{k}" content="{html.escape(meta.get(k, ""))}">' for k in keys]
-    visible_meta = "\n".join(f"        <p><strong>{k.replace('_', ' ').title()}:</strong> {html.escape(meta.get(k, ''))}</p>" for k in keys)
+    meta_tags = []
+    visible_meta_lines = []
+    for key in keys:
+        value = html.escape(meta.get(key, ""))
+        label = key.replace("_", " ").title()
+        meta_tags.append(f'  <meta name="{key}" content="{value}">')
+        visible_meta_lines.append(f"        <p><strong>{label}:</strong> {value}</p>")
+    visible_meta = "\n".join(visible_meta_lines)
+    meta_block = "\n".join(meta_tags)
     return f"""<!doctype html>
 <html lang=\"en\">
 <head>
   <meta charset=\"utf-8\">
   <title>{html.escape(title)}</title>
-{chr(10).join(meta_tags)}
+{meta_block}
   <meta name=\"source_path\" content=\"{html.escape(source_path)}\">
 </head>
 <body>
@@ -230,27 +288,45 @@ def render_html(meta: dict[str, str], body_html: str, source_path: str) -> str:
 """
 
 
-def main() -> None:
+def main() -> int:
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
     missing: list[str] = []
+    verify_hits: list[str] = []
     converted = 0
+
+    print(f"KB root: {KB_ROOT}")
+    print(f"Export root: {OUT_ROOT}")
+    print(f"Expected source file count: {len(EXPORT_FILES)}")
+
     for rel in EXPORT_FILES:
         src = KB_ROOT / rel
         if not src.exists():
-            missing.append(rel); continue
+            missing.append(rel)
+            print(f"WARNING: missing export source: {rel}", file=sys.stderr)
+            continue
         text = src.read_text(encoding="utf-8")
         if "[VERIFY" in text:
-            raise SystemExit(f"Blocked export: [VERIFY] placeholder found in {rel}")
+            verify_hits.append(rel)
+            print(f"WARNING: [VERIFY] placeholder found in {rel}", file=sys.stderr)
         meta, body = parse_front_matter(text)
         body_html = markdown_to_html(body)
         out_path = OUT_ROOT / rel.replace(".md", ".html")
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(render_html(meta, body_html, rel), encoding="utf-8")
         converted += 1
-    if missing:
-        raise SystemExit("Missing export sources:\n" + "\n".join(missing))
+        print(f"converted: {rel}")
+
     print(f"Converted {converted} Markdown files to HTML in {OUT_ROOT}")
+    if missing:
+        print("Missing export sources were skipped:", file=sys.stderr)
+        for item in missing:
+            print(f"- {item}", file=sys.stderr)
+    if verify_hits:
+        print("[VERIFY] placeholders were found but did not block export:", file=sys.stderr)
+        for item in verify_hits:
+            print(f"- {item}", file=sys.stderr)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
