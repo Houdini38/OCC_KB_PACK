@@ -1,9 +1,9 @@
 ---
 title: Financing Objection Handling — Step 8 & 9
-doc_id: 40_FINANCING_002
+doc_id: 05_FINANCING_02
 version: 1.0
 owner: Finance Manager
-last_updated: 2026-05-04
+last_updated: 2026-06-25
 priority_tier: 4
 applies_to: [coach_mode, financing_mode, roleplay_mode]
 tags: [financing, objections, step_8, step_9, scripts]

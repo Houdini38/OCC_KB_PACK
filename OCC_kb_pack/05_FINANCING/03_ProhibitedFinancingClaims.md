@@ -1,9 +1,9 @@
 ---
 title: Financing Coaching Guardrails
-doc_id: 40_FINANCING_003
+doc_id: 05_FINANCING_03
 version: 2.1
 owner: Sales Training Lead
-last_updated: 2026-06-05
+last_updated: 2026-06-25
 priority_tier: 2
 applies_to: [coach_mode, financing_mode, roleplay_mode, demonstration_mode]
 tags: [financing, coaching, step_8]

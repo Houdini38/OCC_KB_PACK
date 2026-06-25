@@ -1,9 +1,9 @@
 ---
 title: Financing Plans — Approved Terms
-doc_id: 40_FINANCING_001
+doc_id: 05_FINANCING_01
 version: 1.2
 owner: Finance Manager
-last_updated: 2026-05-04
+last_updated: 2026-06-25
 priority_tier: 4
 applies_to: [coach_mode, financing_mode, roleplay_mode]
 tags: [financing, plans, terms, disclosures]
